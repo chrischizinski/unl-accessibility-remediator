@@ -1,0 +1,24 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__filesystem__list_directory",
+      "mcp__filesystem__directory_tree",
+      "mcp__filesystem__read_file",
+      "Bash(find:*)",
+      "Bash(ls:*)",
+      "mcp__filesystem__create_directory",
+      "mcp__filesystem__write_file",
+      "WebFetch(domain:go.unl.edu)",
+      "WebFetch(domain:teaching.unl.edu)",
+      "WebFetch(domain:ucomm.unl.edu)",
+      "Bash(chmod:*)",
+      "Bash(bash:*)",
+      "Bash(python3:*)",
+      "mcp__github__create_repository",
+      "mcp__zen-mcp-server__chat",
+      "Bash(gh auth:*)",
+      "Bash(source:*)"
+    ],
+    "deny": []
+  }
+}

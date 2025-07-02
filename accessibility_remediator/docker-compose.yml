@@ -1,0 +1,28 @@
+version: '3.8'
+
+services:
+  accessibility-remediator:
+    build: .
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./input:/app/input
+      - ./output:/app/output  
+      - ./reports:/app/reports
+    environment:
+      - OLLAMA_HOST=ollama:11434
+    depends_on:
+      - ollama
+    command: ["python", "web/server.py"]
+
+  ollama:
+    image: ollama/ollama:latest
+    ports:
+      - "11434:11434"
+    volumes:
+      - ollama_data:/root/.ollama
+    environment:
+      - OLLAMA_MODELS=/root/.ollama/models
+
+volumes:
+  ollama_data:

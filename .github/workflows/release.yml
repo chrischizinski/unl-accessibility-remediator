@@ -1,0 +1,83 @@
+name: Create Release
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+jobs:
+  create-release:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+      
+    - name: Create Release
+      id: create_release
+      uses: actions/create-release@v1
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+        tag_name: ${{ github.ref }}
+        release_name: UNL Accessibility Remediator ${{ github.ref }}
+        body: |
+          ## 🎯 UNL Accessibility Remediator Release
+          
+          AI-powered WCAG 2.1 Level AA compliance tool for slide decks.
+          
+          ### 📥 Quick Download
+          
+          **For Non-Technical Users:**
+          1. Click "Source code (zip)" below to download
+          2. Extract the ZIP file
+          3. Follow instructions in `SIMPLE-SETUP.md`
+          
+          **For Technical Users:**
+          ```bash
+          git clone https://github.com/YOUR_USERNAME/unl-accessibility-remediator.git
+          cd unl-accessibility-remediator
+          ./start-accessibility-tool.sh
+          ```
+          
+          ### 🚀 Quick Start
+          
+          1. **Install Docker Desktop** (one-time setup)
+          2. **Download and extract** this release
+          3. **Double-click** the startup file for your OS:
+             - Windows: `START-HERE-WINDOWS.bat`
+             - Mac: `START-HERE-MAC.command`  
+             - Linux: `START-HERE-LINUX.sh`
+          4. **Upload slide decks** in the web interface
+          
+          ### ✨ What's New
+          
+          See CHANGELOG.md for detailed changes in this release.
+          
+          ### 🎓 UNL Compliance
+          
+          This tool helps meet ADA Title II requirements:
+          - **Deadline**: April 24, 2026
+          - **Standard**: WCAG 2.1 Level AA
+          - **Coverage**: All digital course materials
+          
+          ### 📞 Support
+          
+          - 📚 Documentation: See README.md and DETAILED-INSTRUCTIONS.md
+          - 🐛 Issues: Report bugs via GitHub Issues
+          - 🎓 UNL Faculty: Digital Accessibility Training in Bridge
+          
+          ---
+          **University of Nebraska–Lincoln | Digital Accessibility Initiative**
+        draft: false
+        prerelease: false
+        
+    - name: Upload Release Assets
+      uses: actions/upload-release-asset@v1
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+        upload_url: ${{ steps.create_release.outputs.upload_url }}
+        asset_path: ./SIMPLE-SETUP.md
+        asset_name: SIMPLE-SETUP.md
+        asset_content_type: text/markdown
