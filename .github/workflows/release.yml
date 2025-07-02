@@ -8,19 +8,19 @@ on:
 jobs:
   create-release:
     runs-on: ubuntu-latest
-    
+    permissions:
+      contents: write
+      packages: write
+      
     steps:
     - name: Checkout code
       uses: actions/checkout@v4
       
     - name: Create Release
       id: create_release
-      uses: actions/create-release@v1
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      uses: softprops/action-gh-release@v1
       with:
-        tag_name: ${{ github.ref }}
-        release_name: UNL Accessibility Remediator ${{ github.ref }}
+        name: UNL Accessibility Remediator ${{ github.ref_name }}
         body: |
           ## 🎯 UNL Accessibility Remediator Release
           
@@ -72,12 +72,11 @@ jobs:
         draft: false
         prerelease: false
         
-    - name: Upload Release Assets
-      uses: actions/upload-release-asset@v1
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    - name: Upload Documentation Files
+      uses: softprops/action-gh-release@v1
       with:
-        upload_url: ${{ steps.create_release.outputs.upload_url }}
-        asset_path: ./SIMPLE-SETUP.md
-        asset_name: SIMPLE-SETUP.md
-        asset_content_type: text/markdown
+        files: |
+          ./SIMPLE-SETUP.md
+          ./DETAILED-INSTRUCTIONS.md
+          ./README.md
+          ./CHANGELOG.md

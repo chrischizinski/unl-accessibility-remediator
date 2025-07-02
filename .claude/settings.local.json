@@ -17,7 +17,8 @@
       "mcp__github__create_repository",
       "mcp__zen-mcp-server__chat",
       "Bash(gh auth:*)",
-      "Bash(source:*)"
+      "Bash(source:*)",
+      "Bash(git add:*)"
     ],
     "deny": []
   }
