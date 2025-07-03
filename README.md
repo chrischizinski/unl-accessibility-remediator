@@ -15,7 +15,7 @@ AI-powered WCAG 2.1 Level AA compliance tool for documents and presentations, de
 
 ## 📥 Quick Download
 
-**Latest Release**: [Download the latest version](https://github.com/YOUR_USERNAME/unl-accessibility-remediator/releases/latest)
+**Latest Release**: [Download the latest version](https://github.com/chrischizinski/unl-accessibility-remediator/releases/latest)
 
 - **For colleagues**: Download the ZIP file, extract, and follow `SIMPLE-SETUP.md`
 - **For developers**: Clone or fork this repository
