@@ -14,6 +14,8 @@ pymupdf==1.23.5
 pdfplumber==0.9.0
 # Word document processing  
 python-docx==0.8.11
+# Excel spreadsheet processing
+openpyxl==3.1.2
 # OCR for scanned documents
 pytesseract==0.3.10
 # Enhanced text analysis

@@ -16,6 +16,7 @@ from app.pptx_processor import PowerPointProcessor
 from app.html_processor import HTMLProcessor
 from app.pdf_processor import PDFAccessibilityProcessor
 from app.docx_processor import DocxAccessibilityProcessor
+from app.xlsx_processor import XlsxAccessibilityProcessor
 from app.ai_assistant import AIAssistant
 from app.report_generator import ReportGenerator
 
@@ -42,7 +43,7 @@ def validate_file_path(file_path: str) -> Path:
     if not path.is_file():
         raise ValueError(f"Path is not a file: {file_path}")
     
-    supported_extensions = {'.pptx', '.html', '.htm', '.pdf', '.docx'}
+    supported_extensions = {'.pptx', '.html', '.htm', '.pdf', '.docx', '.xlsx'}
     if path.suffix.lower() not in supported_extensions:
         raise ValueError(f"Unsupported file type: {path.suffix}. Supported: {supported_extensions}")
     
@@ -89,6 +90,9 @@ def process_document(
     elif file_ext == '.docx':
         processor = DocxAccessibilityProcessor()
         logger.info("Using Word document processor")
+    elif file_ext == '.xlsx':
+        processor = XlsxAccessibilityProcessor()
+        logger.info("Using Excel spreadsheet processor")
     
     if not processor:
         logger.error(f"No processor available for file type: {input_file.suffix}")
@@ -99,12 +103,14 @@ def process_document(
         logger.info("Analyzing document for accessibility issues...")
         
         # Different processors have different interfaces
-        if file_ext in {'.pdf', '.docx'}:
+        if file_ext in {'.pdf', '.docx', '.xlsx'}:
             # PDF and Word processors return dict results directly
             if file_ext == '.pdf':
                 analysis_results = processor.analyze_pdf(str(input_file), apply_fixes=auto_fix)
-            else:  # .docx
+            elif file_ext == '.docx':
                 analysis_results = processor.analyze_docx(str(input_file), apply_fixes=auto_fix)
+            else:  # .xlsx
+                analysis_results = processor.analyze_xlsx(str(input_file), apply_fixes=auto_fix)
             
             # Simple report generation for PDF/Word
             logger.info(f"Analysis complete. Score: {analysis_results.get('accessibility_score', 0)}%")
@@ -177,7 +183,7 @@ Examples:
     
     parser.add_argument(
         "input_file",
-        help="Path to the document file (.pptx, .html, .pdf, or .docx)"
+        help="Path to the document file (.pptx, .html, .pdf, .docx, or .xlsx)"
     )
     
     parser.add_argument(
@@ -203,8 +209,8 @@ Examples:
     parser.add_argument(
         "--model",
         type=str,
-        default="llama2",
-        help="Ollama model name to use (default: llama2)"
+        default=None,
+        help="Ollama model name to use (default: auto-select best available from llama3.1:8b, qwen2.5:14b, llama3:8b, phi3:3.8b, llama2)"
     )
     
     parser.add_argument(
