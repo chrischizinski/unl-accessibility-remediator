@@ -106,10 +106,11 @@ For institutional use, your IT department can:
 ## 📞 Need Help?
 
 If you continue to have issues:
-1. **Check Documentation**: Review `SIMPLE-SETUP.md` for alternatives
-2. **Contact IT**: Your IT department can whitelist the application
-3. **GitHub Issues**: Report problems at the GitHub repository
-4. **Manual Installation**: Use Docker directly without the convenience script
+1. **Port Conflicts**: See `PORT-CONFLICTS.md` if you get "port already allocated" errors
+2. **Check Documentation**: Review `SIMPLE-SETUP.md` for alternatives
+3. **Contact IT**: Your IT department can whitelist the application
+4. **GitHub Issues**: Report problems at the GitHub repository
+5. **Manual Installation**: Use Docker directly without the convenience script
 
 ---
 
