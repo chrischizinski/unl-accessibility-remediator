@@ -1,0 +1,4746 @@
+{
+  "document_info": {
+    "file_name": "03_WildlifeGovernance.html",
+    "file_path": "testing/sample_files/03_WildlifeGovernance.html",
+    "analysis_date": "2025-07-03T10:49:34.164604",
+    "total_slides": 34,
+    "file_type": "HTML Presentation"
+  },
+  "executive_summary": {
+    "overall_score": 84,
+    "total_issues": 44,
+    "critical_issues": 0,
+    "high_issues": 18,
+    "medium_issues": 26,
+    "low_issues": 0,
+    "fixes_applied": 18,
+    "manual_review_needed": 0
+  },
+  "slides": [
+    {
+      "slide_number": 1,
+      "slide_title": "Conservation models  and wildlife governance",
+      "content_summary": "7 words",
+      "issues": [],
+      "accessibility_score": 100,
+      "elements_analyzed": {
+        "images": 0,
+        "links": 0,
+        "headings": 1,
+        "tables": 0,
+        "forms": 0
+      },
+      "remediation": {
+        "automatic_fixes_applied": 18,
+        "manual_actions_remaining": 0,
+        "fixes_details": [
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          }
+        ],
+        "status": "Fully Remediated"
+      }
+    },
+    {
+      "slide_number": 2,
+      "slide_title": "Objectives",
+      "content_summary": "40 words",
+      "issues": [
+        {
+          "type": "heading_hierarchy",
+          "severity": "medium",
+          "element_type": "heading",
+          "element_number": 1,
+          "slide": 2,
+          "description": "Heading level jumps from h0 to h2",
+          "current_state": "Heading hierarchy: h0 \u2192 h2",
+          "required_action": "Use sequential heading levels (h1, h2, h3, etc.) without skipping",
+          "wcag_criterion": "1.3.1 Info and Relationships",
+          "priority": "Should Fix",
+          "estimated_time": "1-2 minutes",
+          "technical_details": {
+            "element": "<h2>Objectives</h2>...",
+            "text": "Objectives",
+            "expected_level": "h1"
+          }
+        }
+      ],
+      "accessibility_score": 90,
+      "elements_analyzed": {
+        "images": 0,
+        "links": 0,
+        "headings": 1,
+        "tables": 0,
+        "forms": 0
+      },
+      "remediation": {
+        "automatic_fixes_applied": 18,
+        "manual_actions_remaining": 1,
+        "fixes_details": [
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          }
+        ],
+        "status": "Partially Remediated"
+      }
+    },
+    {
+      "slide_number": 3,
+      "slide_title": "Models of wildlife management",
+      "content_summary": "22 words",
+      "issues": [
+        {
+          "type": "heading_hierarchy",
+          "severity": "medium",
+          "element_type": "heading",
+          "element_number": 1,
+          "slide": 3,
+          "description": "Heading level jumps from h0 to h2",
+          "current_state": "Heading hierarchy: h0 \u2192 h2",
+          "required_action": "Use sequential heading levels (h1, h2, h3, etc.) without skipping",
+          "wcag_criterion": "1.3.1 Info and Relationships",
+          "priority": "Should Fix",
+          "estimated_time": "1-2 minutes",
+          "technical_details": {
+            "element": "<h2>Models of wildlife management</h2>...",
+            "text": "Models of wildlife management",
+            "expected_level": "h1"
+          }
+        }
+      ],
+      "accessibility_score": 90,
+      "elements_analyzed": {
+        "images": 0,
+        "links": 0,
+        "headings": 1,
+        "tables": 0,
+        "forms": 0
+      },
+      "remediation": {
+        "automatic_fixes_applied": 18,
+        "manual_actions_remaining": 1,
+        "fixes_details": [
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          }
+        ],
+        "status": "Partially Remediated"
+      }
+    },
+    {
+      "slide_number": 4,
+      "slide_title": "Models of wildlife management",
+      "content_summary": "4 words, 1 image",
+      "issues": [
+        {
+          "type": "missing_alt_text",
+          "severity": "high",
+          "element_type": "image",
+          "element_number": 1,
+          "slide": 4,
+          "description": "Image 1 missing alternative text",
+          "current_state": "No alt attribute",
+          "required_action": "Add descriptive alt text explaining the image content and purpose",
+          "wcag_criterion": "1.1.1 Non-text Content",
+          "priority": "Must Fix",
+          "estimated_time": "2-5 minutes",
+          "technical_details": {
+            "element": "<img data-src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAGo4AAAtJCAYAAAClTtaxAAAACXBIWXMAAC4jAAAuIwF4pT92AAAgAElEQVR4nOzd63XcRrY24LKX/7O/CNSOQH0iEB2BOBGIjsB0BKIjMB2BqAhMRmAyApMRDBnBkBHoWxhvjKE2L31...",
+            "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAGo4AAAtJCAYAAAClTtaxAAAACXBIWXMAAC4jAAAuIwF4pT92AAAgAE..."
+          }
+        },
+        {
+          "type": "heading_hierarchy",
+          "severity": "medium",
+          "element_type": "heading",
+          "element_number": 1,
+          "slide": 4,
+          "description": "Heading level jumps from h0 to h2",
+          "current_state": "Heading hierarchy: h0 \u2192 h2",
+          "required_action": "Use sequential heading levels (h1, h2, h3, etc.) without skipping",
+          "wcag_criterion": "1.3.1 Info and Relationships",
+          "priority": "Should Fix",
+          "estimated_time": "1-2 minutes",
+          "technical_details": {
+            "element": "<h2>Models of wildlife management</h2>...",
+            "text": "Models of wildlife management",
+            "expected_level": "h1"
+          }
+        }
+      ],
+      "accessibility_score": 75,
+      "elements_analyzed": {
+        "images": 1,
+        "links": 0,
+        "headings": 1,
+        "tables": 0,
+        "forms": 0
+      },
+      "remediation": {
+        "automatic_fixes_applied": 18,
+        "manual_actions_remaining": 2,
+        "fixes_details": [
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          }
+        ],
+        "status": "Partially Remediated"
+      }
+    },
+    {
+      "slide_number": 5,
+      "slide_title": "North American Model of Conservation",
+      "content_summary": "59 words",
+      "issues": [
+        {
+          "type": "heading_hierarchy",
+          "severity": "medium",
+          "element_type": "heading",
+          "element_number": 1,
+          "slide": 5,
+          "description": "Heading level jumps from h0 to h2",
+          "current_state": "Heading hierarchy: h0 \u2192 h2",
+          "required_action": "Use sequential heading levels (h1, h2, h3, etc.) without skipping",
+          "wcag_criterion": "1.3.1 Info and Relationships",
+          "priority": "Should Fix",
+          "estimated_time": "1-2 minutes",
+          "technical_details": {
+            "element": "<h2>North American Model of Conservation</h2>...",
+            "text": "North American Model of Conservation",
+            "expected_level": "h1"
+          }
+        }
+      ],
+      "accessibility_score": 90,
+      "elements_analyzed": {
+        "images": 0,
+        "links": 0,
+        "headings": 1,
+        "tables": 0,
+        "forms": 0
+      },
+      "remediation": {
+        "automatic_fixes_applied": 18,
+        "manual_actions_remaining": 1,
+        "fixes_details": [
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          }
+        ],
+        "status": "Partially Remediated"
+      }
+    },
+    {
+      "slide_number": 6,
+      "slide_title": "Wildlife is a public trust",
+      "content_summary": "6 words, 1 image",
+      "issues": [
+        {
+          "type": "missing_alt_text",
+          "severity": "high",
+          "element_type": "image",
+          "element_number": 1,
+          "slide": 6,
+          "description": "Image 1 missing alternative text",
+          "current_state": "No alt attribute",
+          "required_action": "Add descriptive alt text explaining the image content and purpose",
+          "wcag_criterion": "1.1.1 Non-text Content",
+          "priority": "Must Fix",
+          "estimated_time": "2-5 minutes",
+          "technical_details": {
+            "element": "<img data-src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABNQAAAOMCAYAAACFMu6dAAAMPGlDQ1BJQ0MgUHJvZmlsZQAASImVVwdYU8kWnltSSWiBCEgJvQkC0pESQotU6WAjJAFCiTEQVOzKooJrFxGwYUUUXAsga0XsLoq9LxZUlHVRFxsqb1J...",
+            "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABNQAAAOMCAYAAACFMu6dAAAMPGlDQ1BJQ0MgUHJvZmlsZQAASImVVw..."
+          }
+        }
+      ],
+      "accessibility_score": 85,
+      "elements_analyzed": {
+        "images": 1,
+        "links": 0,
+        "headings": 0,
+        "tables": 0,
+        "forms": 0
+      },
+      "remediation": {
+        "automatic_fixes_applied": 18,
+        "manual_actions_remaining": 1,
+        "fixes_details": [
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          }
+        ],
+        "status": "Partially Remediated"
+      }
+    },
+    {
+      "slide_number": 7,
+      "slide_title": "Elimination of game markets",
+      "content_summary": "16 words, 1 image",
+      "issues": [
+        {
+          "type": "missing_alt_text",
+          "severity": "high",
+          "element_type": "image",
+          "element_number": 1,
+          "slide": 7,
+          "description": "Image 1 missing alternative text",
+          "current_state": "No alt attribute",
+          "required_action": "Add descriptive alt text explaining the image content and purpose",
+          "wcag_criterion": "1.1.1 Non-text Content",
+          "priority": "Must Fix",
+          "estimated_time": "2-5 minutes",
+          "technical_details": {
+            "element": "<img data-src=\"data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAMCAgMCAgMDAwMEAwMEBQgFBQQEBQoHBwYIDAoMDAsKCwsNDhIQDQ4RDgsLEBYQERMUFRUVDA8XGBYUGBIUFRT/2wBDAQMEBAUEBQkFBQkUDQsNFBQUFBQUFBQUFBQUFB...",
+            "src": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAMCAgMCAgMDAwMEAwMEBQgFBQQEBQoHBwYIDAoMDAsKC..."
+          }
+        }
+      ],
+      "accessibility_score": 85,
+      "elements_analyzed": {
+        "images": 1,
+        "links": 0,
+        "headings": 0,
+        "tables": 0,
+        "forms": 0
+      },
+      "remediation": {
+        "automatic_fixes_applied": 18,
+        "manual_actions_remaining": 1,
+        "fixes_details": [
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          }
+        ],
+        "status": "Partially Remediated"
+      }
+    },
+    {
+      "slide_number": 8,
+      "slide_title": "Wildlife is allocated by law",
+      "content_summary": "18 words, 1 image",
+      "issues": [
+        {
+          "type": "missing_alt_text",
+          "severity": "high",
+          "element_type": "image",
+          "element_number": 1,
+          "slide": 8,
+          "description": "Image 1 missing alternative text",
+          "current_state": "No alt attribute",
+          "required_action": "Add descriptive alt text explaining the image content and purpose",
+          "wcag_criterion": "1.1.1 Non-text Content",
+          "priority": "Must Fix",
+          "estimated_time": "2-5 minutes",
+          "technical_details": {
+            "element": "<img data-src=\"data:text/html; charset=UTF-8;charset=utf-8,%3C%21DOCTYPE%20html%3E%0A%3Chtml%20lang%3D%22en%2DUS%22%3E%0A%3Chead%3E%0A%3Cmeta%20charset%3D%22UTF%2D8%22%20%2F%3E%0A%3Cmeta%20name%3D%27v...",
+            "src": "data:text/html; charset=UTF-8;charset=utf-8,%3C%21DOCTYPE%20html%3E%0A%3Chtml%20lang%3D%22en%2DUS%22..."
+          }
+        }
+      ],
+      "accessibility_score": 85,
+      "elements_analyzed": {
+        "images": 1,
+        "links": 0,
+        "headings": 0,
+        "tables": 0,
+        "forms": 0
+      },
+      "remediation": {
+        "automatic_fixes_applied": 18,
+        "manual_actions_remaining": 1,
+        "fixes_details": [
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          }
+        ],
+        "status": "Partially Remediated"
+      }
+    },
+    {
+      "slide_number": 9,
+      "slide_title": "Kill only for legitimate purposes",
+      "content_summary": "23 words, 1 image",
+      "issues": [
+        {
+          "type": "missing_alt_text",
+          "severity": "high",
+          "element_type": "image",
+          "element_number": 1,
+          "slide": 9,
+          "description": "Image 1 missing alternative text",
+          "current_state": "No alt attribute",
+          "required_action": "Add descriptive alt text explaining the image content and purpose",
+          "wcag_criterion": "1.1.1 Non-text Content",
+          "priority": "Must Fix",
+          "estimated_time": "2-5 minutes",
+          "technical_details": {
+            "element": "<img data-src=\"data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAYEBAUEBAYFBQUGBgYHCQ4JCQgICRINDQoOFRIWFhUSFBQXGiEcFxgfGRQUHScdHyIjJSUlFhwpLCgkKyEkJST/2wBDAQYGBgkICREJCREkGBQYJCQkJCQkJCQkJCQkJC...",
+            "src": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAYEBAUEBAYFBQUGBgYHCQ4JCQgICRINDQoOFRIWFhUSF..."
+          }
+        }
+      ],
+      "accessibility_score": 85,
+      "elements_analyzed": {
+        "images": 1,
+        "links": 0,
+        "headings": 0,
+        "tables": 0,
+        "forms": 0
+      },
+      "remediation": {
+        "automatic_fixes_applied": 18,
+        "manual_actions_remaining": 1,
+        "fixes_details": [
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          }
+        ],
+        "status": "Partially Remediated"
+      }
+    },
+    {
+      "slide_number": 10,
+      "slide_title": "Wildlife is an international resources",
+      "content_summary": "14 words, 1 image",
+      "issues": [
+        {
+          "type": "missing_alt_text",
+          "severity": "high",
+          "element_type": "image",
+          "element_number": 1,
+          "slide": 10,
+          "description": "Image 1 missing alternative text",
+          "current_state": "No alt attribute",
+          "required_action": "Add descriptive alt text explaining the image content and purpose",
+          "wcag_criterion": "1.1.1 Non-text Content",
+          "priority": "Must Fix",
+          "estimated_time": "2-5 minutes",
+          "technical_details": {
+            "element": "<img data-src=\"data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD//gAfQ29tcHJlc3NlZCBieSBqcGVnLXJlY29tcHJlc3P/2wCEAAgICAgICAkKCgkMDQwNDBIQDw8QEhsTFRMVExspGR4ZGR4ZKSQsJCEkLCRBMy0tM0FLPzw/S1tRUVtybHKVlc...",
+            "src": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD//gAfQ29tcHJlc3NlZCBieSBqcGVnLXJlY29tcHJlc3P/2wCEA..."
+          }
+        }
+      ],
+      "accessibility_score": 85,
+      "elements_analyzed": {
+        "images": 1,
+        "links": 0,
+        "headings": 0,
+        "tables": 0,
+        "forms": 0
+      },
+      "remediation": {
+        "automatic_fixes_applied": 18,
+        "manual_actions_remaining": 1,
+        "fixes_details": [
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          }
+        ],
+        "status": "Partially Remediated"
+      }
+    },
+    {
+      "slide_number": 11,
+      "slide_title": "Democracy of hunting for all",
+      "content_summary": "100 words, 1 image, 2 links",
+      "issues": [
+        {
+          "type": "missing_alt_text",
+          "severity": "high",
+          "element_type": "image",
+          "element_number": 1,
+          "slide": 11,
+          "description": "Image 1 missing alternative text",
+          "current_state": "No alt attribute",
+          "required_action": "Add descriptive alt text explaining the image content and purpose",
+          "wcag_criterion": "1.1.1 Non-text Content",
+          "priority": "Must Fix",
+          "estimated_time": "2-5 minutes",
+          "technical_details": {
+            "element": "<img data-src=\"data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAUDBAgICAkJCQkHCAgICAcHBwgHBwcHBwcHBwcHBwcHBwcHChALBwgOCQcHDRUNDhERExMTBw0WGBYSGBASExIBBQUFCAcIDwkIDRINDQ0SEhISEhISEhISEhISEhISEh...",
+            "src": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAUDBAgICAkJCQkHCAgICAcHBwgHBwcHBwcHBwcHBwcHB..."
+          }
+        }
+      ],
+      "accessibility_score": 85,
+      "elements_analyzed": {
+        "images": 1,
+        "links": 2,
+        "headings": 0,
+        "tables": 0,
+        "forms": 0
+      },
+      "remediation": {
+        "automatic_fixes_applied": 18,
+        "manual_actions_remaining": 1,
+        "fixes_details": [
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          }
+        ],
+        "status": "Partially Remediated"
+      }
+    },
+    {
+      "slide_number": 12,
+      "slide_title": "Science is the backbone to wildlife policy",
+      "content_summary": "16 words, 2 images, 1 link",
+      "issues": [
+        {
+          "type": "missing_alt_text",
+          "severity": "high",
+          "element_type": "image",
+          "element_number": 1,
+          "slide": 12,
+          "description": "Image 1 missing alternative text",
+          "current_state": "No alt attribute",
+          "required_action": "Add descriptive alt text explaining the image content and purpose",
+          "wcag_criterion": "1.1.1 Non-text Content",
+          "priority": "Must Fix",
+          "estimated_time": "2-5 minutes",
+          "technical_details": {
+            "element": "<img data-src=\"data:application/octet-stream;base64,/9j/4AAQSkZJRgABAQEASABIAAD/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2Nj...",
+            "src": "data:application/octet-stream;base64,/9j/4AAQSkZJRgABAQEASABIAAD/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDE..."
+          }
+        },
+        {
+          "type": "missing_alt_text",
+          "severity": "high",
+          "element_type": "image",
+          "element_number": 2,
+          "slide": 12,
+          "description": "Image 2 missing alternative text",
+          "current_state": "No alt attribute",
+          "required_action": "Add descriptive alt text explaining the image content and purpose",
+          "wcag_criterion": "1.1.1 Non-text Content",
+          "priority": "Must Fix",
+          "estimated_time": "2-5 minutes",
+          "technical_details": {
+            "element": "<img data-src=\"data:text/html; charset=UTF-8;charset=utf-8,%3C%21DOCTYPE%20html%3E%0A%3Chtml%20lang%3D%22en%2DUS%22%3E%0A%3Chead%3E%0A%3Cmeta%20charset%3D%22UTF%2D8%22%20%2F%3E%0A%3Cmeta%20name%3D%27v...",
+            "src": "data:text/html; charset=UTF-8;charset=utf-8,%3C%21DOCTYPE%20html%3E%0A%3Chtml%20lang%3D%22en%2DUS%22..."
+          }
+        }
+      ],
+      "accessibility_score": 70,
+      "elements_analyzed": {
+        "images": 2,
+        "links": 1,
+        "headings": 0,
+        "tables": 0,
+        "forms": 0
+      },
+      "remediation": {
+        "automatic_fixes_applied": 18,
+        "manual_actions_remaining": 2,
+        "fixes_details": [
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          }
+        ],
+        "status": "Partially Remediated"
+      }
+    },
+    {
+      "slide_number": 13,
+      "slide_title": "Wildlife management can\u2019t happen without funding",
+      "content_summary": "6 words, 1 image",
+      "issues": [
+        {
+          "type": "missing_alt_text",
+          "severity": "high",
+          "element_type": "image",
+          "element_number": 1,
+          "slide": 13,
+          "description": "Image 1 missing alternative text",
+          "current_state": "No alt attribute",
+          "required_action": "Add descriptive alt text explaining the image content and purpose",
+          "wcag_criterion": "1.1.1 Non-text Content",
+          "priority": "Must Fix",
+          "estimated_time": "2-5 minutes",
+          "technical_details": {
+            "element": "<img class=\"r-stretch quarto-figure-center\" data-src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAHpYAAA56CAYAAADxOD6LAAAACXBIWXMAAC4jAAAuIwF4pT92AAAgAElEQVR4nOzdsW2TCxiG0c9RCko2gBGQPABmEhiAgjsBdwQK...",
+            "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAHpYAAA56CAYAAADxOD6LAAAACXBIWXMAAC4jAAAuIwF4pT92AAAgAE..."
+          }
+        },
+        {
+          "type": "heading_hierarchy",
+          "severity": "medium",
+          "element_type": "heading",
+          "element_number": 1,
+          "slide": 13,
+          "description": "Heading level jumps from h0 to h2",
+          "current_state": "Heading hierarchy: h0 \u2192 h2",
+          "required_action": "Use sequential heading levels (h1, h2, h3, etc.) without skipping",
+          "wcag_criterion": "1.3.1 Info and Relationships",
+          "priority": "Should Fix",
+          "estimated_time": "1-2 minutes",
+          "technical_details": {
+            "element": "<h2>Wildlife management can\u2019t happen without funding</h2>...",
+            "text": "Wildlife management can\u2019t happen without funding",
+            "expected_level": "h1"
+          }
+        }
+      ],
+      "accessibility_score": 75,
+      "elements_analyzed": {
+        "images": 1,
+        "links": 0,
+        "headings": 1,
+        "tables": 0,
+        "forms": 0
+      },
+      "remediation": {
+        "automatic_fixes_applied": 18,
+        "manual_actions_remaining": 2,
+        "fixes_details": [
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          }
+        ],
+        "status": "Partially Remediated"
+      }
+    },
+    {
+      "slide_number": 14,
+      "slide_title": "Overview of the criticisms of the NAM as characterised in the Peterson et al. reading",
+      "content_summary": "59 words, 1 link",
+      "issues": [
+        {
+          "type": "heading_hierarchy",
+          "severity": "medium",
+          "element_type": "heading",
+          "element_number": 1,
+          "slide": 14,
+          "description": "Heading level jumps from h0 to h2",
+          "current_state": "Heading hierarchy: h0 \u2192 h2",
+          "required_action": "Use sequential heading levels (h1, h2, h3, etc.) without skipping",
+          "wcag_criterion": "1.3.1 Info and Relationships",
+          "priority": "Should Fix",
+          "estimated_time": "1-2 minutes",
+          "technical_details": {
+            "element": "<h2>Overview of the criticisms of the NAM as characterised in the <a href=\"https://faculty.cnr.ncsu.edu/nilspeterson/wp-content/uploads/sites/17/2016/12/PetersonNelson_2016.pdf\">Peterson et al.</a> re...",
+            "text": "Overview of the criticisms of the NAM as characterised in the Peterson et al. reading",
+            "expected_level": "h1"
+          }
+        }
+      ],
+      "accessibility_score": 90,
+      "elements_analyzed": {
+        "images": 0,
+        "links": 1,
+        "headings": 1,
+        "tables": 0,
+        "forms": 0
+      },
+      "remediation": {
+        "automatic_fixes_applied": 18,
+        "manual_actions_remaining": 1,
+        "fixes_details": [
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          }
+        ],
+        "status": "Partially Remediated"
+      }
+    },
+    {
+      "slide_number": 15,
+      "slide_title": "Critiques of the NAM",
+      "content_summary": "75 words",
+      "issues": [
+        {
+          "type": "heading_hierarchy",
+          "severity": "medium",
+          "element_type": "heading",
+          "element_number": 1,
+          "slide": 15,
+          "description": "Heading level jumps from h0 to h2",
+          "current_state": "Heading hierarchy: h0 \u2192 h2",
+          "required_action": "Use sequential heading levels (h1, h2, h3, etc.) without skipping",
+          "wcag_criterion": "1.3.1 Info and Relationships",
+          "priority": "Should Fix",
+          "estimated_time": "1-2 minutes",
+          "technical_details": {
+            "element": "<h2>Critiques of the NAM</h2>...",
+            "text": "Critiques of the NAM",
+            "expected_level": "h1"
+          }
+        }
+      ],
+      "accessibility_score": 90,
+      "elements_analyzed": {
+        "images": 0,
+        "links": 0,
+        "headings": 2,
+        "tables": 0,
+        "forms": 0
+      },
+      "remediation": {
+        "automatic_fixes_applied": 18,
+        "manual_actions_remaining": 1,
+        "fixes_details": [
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          }
+        ],
+        "status": "Partially Remediated"
+      }
+    },
+    {
+      "slide_number": 16,
+      "slide_title": "Descriptive critiques",
+      "content_summary": "91 words",
+      "issues": [
+        {
+          "type": "heading_hierarchy",
+          "severity": "medium",
+          "element_type": "heading",
+          "element_number": 1,
+          "slide": 16,
+          "description": "Heading level jumps from h0 to h3",
+          "current_state": "Heading hierarchy: h0 \u2192 h3",
+          "required_action": "Use sequential heading levels (h1, h2, h3, etc.) without skipping",
+          "wcag_criterion": "1.3.1 Info and Relationships",
+          "priority": "Should Fix",
+          "estimated_time": "1-2 minutes",
+          "technical_details": {
+            "element": "<h3 id=\"descriptive-critiques-1\">Descriptive critiques</h3>...",
+            "text": "Descriptive critiques",
+            "expected_level": "h1"
+          }
+        }
+      ],
+      "accessibility_score": 90,
+      "elements_analyzed": {
+        "images": 0,
+        "links": 0,
+        "headings": 1,
+        "tables": 0,
+        "forms": 0
+      },
+      "remediation": {
+        "automatic_fixes_applied": 18,
+        "manual_actions_remaining": 1,
+        "fixes_details": [
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          }
+        ],
+        "status": "Partially Remediated"
+      }
+    },
+    {
+      "slide_number": 17,
+      "slide_title": "Descriptive critiques",
+      "content_summary": "88 words",
+      "issues": [
+        {
+          "type": "heading_hierarchy",
+          "severity": "medium",
+          "element_type": "heading",
+          "element_number": 1,
+          "slide": 17,
+          "description": "Heading level jumps from h0 to h3",
+          "current_state": "Heading hierarchy: h0 \u2192 h3",
+          "required_action": "Use sequential heading levels (h1, h2, h3, etc.) without skipping",
+          "wcag_criterion": "1.3.1 Info and Relationships",
+          "priority": "Should Fix",
+          "estimated_time": "1-2 minutes",
+          "technical_details": {
+            "element": "<h3 id=\"descriptive-critiques-2\">Descriptive critiques</h3>...",
+            "text": "Descriptive critiques",
+            "expected_level": "h1"
+          }
+        }
+      ],
+      "accessibility_score": 90,
+      "elements_analyzed": {
+        "images": 0,
+        "links": 0,
+        "headings": 1,
+        "tables": 0,
+        "forms": 0
+      },
+      "remediation": {
+        "automatic_fixes_applied": 18,
+        "manual_actions_remaining": 1,
+        "fixes_details": [
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          }
+        ],
+        "status": "Partially Remediated"
+      }
+    },
+    {
+      "slide_number": 18,
+      "slide_title": "Prescriptive critiques",
+      "content_summary": "134 words",
+      "issues": [
+        {
+          "type": "heading_hierarchy",
+          "severity": "medium",
+          "element_type": "heading",
+          "element_number": 1,
+          "slide": 18,
+          "description": "Heading level jumps from h0 to h3",
+          "current_state": "Heading hierarchy: h0 \u2192 h3",
+          "required_action": "Use sequential heading levels (h1, h2, h3, etc.) without skipping",
+          "wcag_criterion": "1.3.1 Info and Relationships",
+          "priority": "Should Fix",
+          "estimated_time": "1-2 minutes",
+          "technical_details": {
+            "element": "<h3 id=\"prescriptive-critiques\">Prescriptive critiques</h3>...",
+            "text": "Prescriptive critiques",
+            "expected_level": "h1"
+          }
+        }
+      ],
+      "accessibility_score": 90,
+      "elements_analyzed": {
+        "images": 0,
+        "links": 0,
+        "headings": 1,
+        "tables": 0,
+        "forms": 0
+      },
+      "remediation": {
+        "automatic_fixes_applied": 18,
+        "manual_actions_remaining": 1,
+        "fixes_details": [
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          }
+        ],
+        "status": "Partially Remediated"
+      }
+    },
+    {
+      "slide_number": 19,
+      "slide_title": "So wtf do we do?",
+      "content_summary": "51 words, 1 image",
+      "issues": [
+        {
+          "type": "missing_alt_text",
+          "severity": "high",
+          "element_type": "image",
+          "element_number": 1,
+          "slide": 19,
+          "description": "Image 1 missing alternative text",
+          "current_state": "No alt attribute",
+          "required_action": "Add descriptive alt text explaining the image content and purpose",
+          "wcag_criterion": "1.1.1 Non-text Content",
+          "priority": "Must Fix",
+          "estimated_time": "2-5 minutes",
+          "technical_details": {
+            "element": "<img data-src=\"data:image/gif;base64,R0lGODlh4AEOAff+AA4ODhBRbxVWchcVFRdPaBdbdhgZGxkZGRkeGRksNRo+ThsbGRsbGxweHRwlJiA2LyEcEyExICQ1IiYlFyY2Iyg+Jio+Jy0jFC0/Qy1AKC4oFi5QZC9HLjE9KDFHMTIqFjVddThOMzpOVTshETt...",
+            "src": "data:image/gif;base64,R0lGODlh4AEOAff+AA4ODhBRbxVWchcVFRdPaBdbdhgZGxkZGRkeGRksNRo+ThsbGRsbGxweHRwlJi..."
+          }
+        },
+        {
+          "type": "heading_hierarchy",
+          "severity": "medium",
+          "element_type": "heading",
+          "element_number": 1,
+          "slide": 19,
+          "description": "Heading level jumps from h0 to h2",
+          "current_state": "Heading hierarchy: h0 \u2192 h2",
+          "required_action": "Use sequential heading levels (h1, h2, h3, etc.) without skipping",
+          "wcag_criterion": "1.3.1 Info and Relationships",
+          "priority": "Should Fix",
+          "estimated_time": "1-2 minutes",
+          "technical_details": {
+            "element": "<h2>So wtf do we do?</h2>...",
+            "text": "So wtf do we do?",
+            "expected_level": "h1"
+          }
+        }
+      ],
+      "accessibility_score": 75,
+      "elements_analyzed": {
+        "images": 1,
+        "links": 0,
+        "headings": 1,
+        "tables": 0,
+        "forms": 0
+      },
+      "remediation": {
+        "automatic_fixes_applied": 18,
+        "manual_actions_remaining": 2,
+        "fixes_details": [
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          }
+        ],
+        "status": "Partially Remediated"
+      }
+    },
+    {
+      "slide_number": 20,
+      "slide_title": "Messy or wicked problems",
+      "content_summary": "4 words, 1 image",
+      "issues": [
+        {
+          "type": "missing_alt_text",
+          "severity": "high",
+          "element_type": "image",
+          "element_number": 1,
+          "slide": 20,
+          "description": "Image 1 missing alternative text",
+          "current_state": "No alt attribute",
+          "required_action": "Add descriptive alt text explaining the image content and purpose",
+          "wcag_criterion": "1.1.1 Non-text Content",
+          "priority": "Must Fix",
+          "estimated_time": "2-5 minutes",
+          "technical_details": {
+            "element": "<img data-src=\"data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAASABIAAD/4QCMRXhpZgAATU0AKgAAAAgABQESAAMAAAABAAEAAAEaAAUAAAABAAAASgEbAAUAAAABAAAAUgEoAAMAAAABAAIAAIdpAAQAAAABAAAAWgAAAAAAAABIAAAAAQAAAEgAAAABAA...",
+            "src": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAASABIAAD/4QCMRXhpZgAATU0AKgAAAAgABQESAAMAAAABAAEAAAEaAAUAA..."
+          }
+        },
+        {
+          "type": "heading_hierarchy",
+          "severity": "medium",
+          "element_type": "heading",
+          "element_number": 1,
+          "slide": 20,
+          "description": "Heading level jumps from h0 to h2",
+          "current_state": "Heading hierarchy: h0 \u2192 h2",
+          "required_action": "Use sequential heading levels (h1, h2, h3, etc.) without skipping",
+          "wcag_criterion": "1.3.1 Info and Relationships",
+          "priority": "Should Fix",
+          "estimated_time": "1-2 minutes",
+          "technical_details": {
+            "element": "<h2>Messy or wicked problems</h2>...",
+            "text": "Messy or wicked problems",
+            "expected_level": "h1"
+          }
+        }
+      ],
+      "accessibility_score": 75,
+      "elements_analyzed": {
+        "images": 1,
+        "links": 0,
+        "headings": 1,
+        "tables": 0,
+        "forms": 0
+      },
+      "remediation": {
+        "automatic_fixes_applied": 18,
+        "manual_actions_remaining": 2,
+        "fixes_details": [
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          }
+        ],
+        "status": "Partially Remediated"
+      }
+    },
+    {
+      "slide_number": 21,
+      "slide_title": "Public trust thinking",
+      "content_summary": "96 words",
+      "issues": [
+        {
+          "type": "heading_hierarchy",
+          "severity": "medium",
+          "element_type": "heading",
+          "element_number": 1,
+          "slide": 21,
+          "description": "Heading level jumps from h0 to h2",
+          "current_state": "Heading hierarchy: h0 \u2192 h2",
+          "required_action": "Use sequential heading levels (h1, h2, h3, etc.) without skipping",
+          "wcag_criterion": "1.3.1 Info and Relationships",
+          "priority": "Should Fix",
+          "estimated_time": "1-2 minutes",
+          "technical_details": {
+            "element": "<h2>Public trust thinking</h2>...",
+            "text": "Public trust thinking",
+            "expected_level": "h1"
+          }
+        }
+      ],
+      "accessibility_score": 90,
+      "elements_analyzed": {
+        "images": 0,
+        "links": 0,
+        "headings": 1,
+        "tables": 0,
+        "forms": 0
+      },
+      "remediation": {
+        "automatic_fixes_applied": 18,
+        "manual_actions_remaining": 1,
+        "fixes_details": [
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          }
+        ],
+        "status": "Partially Remediated"
+      }
+    },
+    {
+      "slide_number": 22,
+      "slide_title": "Clarifying terms",
+      "content_summary": "67 words",
+      "issues": [
+        {
+          "type": "heading_hierarchy",
+          "severity": "medium",
+          "element_type": "heading",
+          "element_number": 1,
+          "slide": 22,
+          "description": "Heading level jumps from h0 to h2",
+          "current_state": "Heading hierarchy: h0 \u2192 h2",
+          "required_action": "Use sequential heading levels (h1, h2, h3, etc.) without skipping",
+          "wcag_criterion": "1.3.1 Info and Relationships",
+          "priority": "Should Fix",
+          "estimated_time": "1-2 minutes",
+          "technical_details": {
+            "element": "<h2>Clarifying terms</h2>...",
+            "text": "Clarifying terms",
+            "expected_level": "h1"
+          }
+        }
+      ],
+      "accessibility_score": 90,
+      "elements_analyzed": {
+        "images": 0,
+        "links": 0,
+        "headings": 1,
+        "tables": 0,
+        "forms": 0
+      },
+      "remediation": {
+        "automatic_fixes_applied": 18,
+        "manual_actions_remaining": 1,
+        "fixes_details": [
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          }
+        ],
+        "status": "Partially Remediated"
+      }
+    },
+    {
+      "slide_number": 23,
+      "slide_title": "Increasing authority and capacity",
+      "content_summary": "48 words, 1 image",
+      "issues": [
+        {
+          "type": "missing_alt_text",
+          "severity": "high",
+          "element_type": "image",
+          "element_number": 1,
+          "slide": 23,
+          "description": "Image 1 missing alternative text",
+          "current_state": "No alt attribute",
+          "required_action": "Add descriptive alt text explaining the image content and purpose",
+          "wcag_criterion": "1.1.1 Non-text Content",
+          "priority": "Must Fix",
+          "estimated_time": "2-5 minutes",
+          "technical_details": {
+            "element": "<img data-src=\"data:image/webp;base64,UklGRobyAQBXRUJQVlA4IHryAQBQVgSdASqYA/QCPm0ukkYkIqIhLdvaUIANiU3fhs8YGPe7n1EIkvrOnGv8h/x9hzK/uL9//jP3X9rjlfve9ffjP1r/hf2q+9D/F9Kvl38j/3vMI6D/53+V/0f7E/PD/k/+n/Of6b...",
+            "src": "data:image/webp;base64,UklGRobyAQBXRUJQVlA4IHryAQBQVgSdASqYA/QCPm0ukkYkIqIhLdvaUIANiU3fhs8YGPe7n1EIk..."
+          }
+        },
+        {
+          "type": "heading_hierarchy",
+          "severity": "medium",
+          "element_type": "heading",
+          "element_number": 1,
+          "slide": 23,
+          "description": "Heading level jumps from h0 to h2",
+          "current_state": "Heading hierarchy: h0 \u2192 h2",
+          "required_action": "Use sequential heading levels (h1, h2, h3, etc.) without skipping",
+          "wcag_criterion": "1.3.1 Info and Relationships",
+          "priority": "Should Fix",
+          "estimated_time": "1-2 minutes",
+          "technical_details": {
+            "element": "<h2>Increasing authority and capacity</h2>...",
+            "text": "Increasing authority and capacity",
+            "expected_level": "h1"
+          }
+        }
+      ],
+      "accessibility_score": 75,
+      "elements_analyzed": {
+        "images": 1,
+        "links": 0,
+        "headings": 1,
+        "tables": 0,
+        "forms": 0
+      },
+      "remediation": {
+        "automatic_fixes_applied": 18,
+        "manual_actions_remaining": 2,
+        "fixes_details": [
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          }
+        ],
+        "status": "Partially Remediated"
+      }
+    },
+    {
+      "slide_number": 24,
+      "slide_title": "Clarifying roles and responsibilities of trust administrators",
+      "content_summary": "109 words",
+      "issues": [
+        {
+          "type": "heading_hierarchy",
+          "severity": "medium",
+          "element_type": "heading",
+          "element_number": 1,
+          "slide": 24,
+          "description": "Heading level jumps from h0 to h2",
+          "current_state": "Heading hierarchy: h0 \u2192 h2",
+          "required_action": "Use sequential heading levels (h1, h2, h3, etc.) without skipping",
+          "wcag_criterion": "1.3.1 Info and Relationships",
+          "priority": "Should Fix",
+          "estimated_time": "1-2 minutes",
+          "technical_details": {
+            "element": "<h2>Clarifying roles and responsibilities of trust administrators</h2>...",
+            "text": "Clarifying roles and responsibilities of trust administrators",
+            "expected_level": "h1"
+          }
+        }
+      ],
+      "accessibility_score": 90,
+      "elements_analyzed": {
+        "images": 0,
+        "links": 0,
+        "headings": 1,
+        "tables": 0,
+        "forms": 0
+      },
+      "remediation": {
+        "automatic_fixes_applied": 18,
+        "manual_actions_remaining": 1,
+        "fixes_details": [
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          }
+        ],
+        "status": "Partially Remediated"
+      }
+    },
+    {
+      "slide_number": 25,
+      "slide_title": "Practicing impartiality and avoiding bias",
+      "content_summary": "53 words, 1 image",
+      "issues": [
+        {
+          "type": "missing_alt_text",
+          "severity": "high",
+          "element_type": "image",
+          "element_number": 1,
+          "slide": 25,
+          "description": "Image 1 missing alternative text",
+          "current_state": "No alt attribute",
+          "required_action": "Add descriptive alt text explaining the image content and purpose",
+          "wcag_criterion": "1.1.1 Non-text Content",
+          "priority": "Must Fix",
+          "estimated_time": "2-5 minutes",
+          "technical_details": {
+            "element": "<img data-src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAmgAAANpCAYAAAC/xMVYAAAAAXNSR0IArs4c6QAAAGJlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAABJKGAAcAAAASAAAAUKABAAMAAAABAAEAAKACAAQAAAABAAACaKADAAQ...",
+            "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAmgAAANpCAYAAAC/xMVYAAAAAXNSR0IArs4c6QAAAGJlWElmTU0AKg..."
+          }
+        },
+        {
+          "type": "heading_hierarchy",
+          "severity": "medium",
+          "element_type": "heading",
+          "element_number": 1,
+          "slide": 25,
+          "description": "Heading level jumps from h0 to h2",
+          "current_state": "Heading hierarchy: h0 \u2192 h2",
+          "required_action": "Use sequential heading levels (h1, h2, h3, etc.) without skipping",
+          "wcag_criterion": "1.3.1 Info and Relationships",
+          "priority": "Should Fix",
+          "estimated_time": "1-2 minutes",
+          "technical_details": {
+            "element": "<h2>Practicing impartiality and avoiding bias</h2>...",
+            "text": "Practicing impartiality and avoiding bias",
+            "expected_level": "h1"
+          }
+        }
+      ],
+      "accessibility_score": 75,
+      "elements_analyzed": {
+        "images": 1,
+        "links": 0,
+        "headings": 1,
+        "tables": 0,
+        "forms": 0
+      },
+      "remediation": {
+        "automatic_fixes_applied": 18,
+        "manual_actions_remaining": 2,
+        "fixes_details": [
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          }
+        ],
+        "status": "Partially Remediated"
+      }
+    },
+    {
+      "slide_number": 26,
+      "slide_title": "Overcoming institutional resistance to change",
+      "content_summary": "41 words, 1 image",
+      "issues": [
+        {
+          "type": "missing_alt_text",
+          "severity": "high",
+          "element_type": "image",
+          "element_number": 1,
+          "slide": 26,
+          "description": "Image 1 missing alternative text",
+          "current_state": "No alt attribute",
+          "required_action": "Add descriptive alt text explaining the image content and purpose",
+          "wcag_criterion": "1.1.1 Non-text Content",
+          "priority": "Must Fix",
+          "estimated_time": "2-5 minutes",
+          "technical_details": {
+            "element": "<img data-src=\"data:image/gif;base64,R0lGODlhRgHgAfeyAAAAAAACAgEAAQEBAAEBAQIBAAICAgMDAAMDAwQEBAUFBQYGBwgICAkDAwkJCQsKBAwMDBAQEBQEBxQQBBQUFBgYGBsbGx0dHB4FCR8aBSAgHyIjIyUlJSYmJikHDSkpKSoiBiopKSwMESwsLDE...",
+            "src": "data:image/gif;base64,R0lGODlhRgHgAfeyAAAAAAACAgEAAQEBAAEBAQIBAAICAgMDAAMDAwQEBAUFBQYGBwgICAkDAwkJCQ..."
+          }
+        },
+        {
+          "type": "heading_hierarchy",
+          "severity": "medium",
+          "element_type": "heading",
+          "element_number": 1,
+          "slide": 26,
+          "description": "Heading level jumps from h0 to h2",
+          "current_state": "Heading hierarchy: h0 \u2192 h2",
+          "required_action": "Use sequential heading levels (h1, h2, h3, etc.) without skipping",
+          "wcag_criterion": "1.3.1 Info and Relationships",
+          "priority": "Should Fix",
+          "estimated_time": "1-2 minutes",
+          "technical_details": {
+            "element": "<h2>Overcoming institutional resistance to change</h2>...",
+            "text": "Overcoming institutional resistance to change",
+            "expected_level": "h1"
+          }
+        }
+      ],
+      "accessibility_score": 75,
+      "elements_analyzed": {
+        "images": 1,
+        "links": 0,
+        "headings": 1,
+        "tables": 0,
+        "forms": 0
+      },
+      "remediation": {
+        "automatic_fixes_applied": 18,
+        "manual_actions_remaining": 2,
+        "fixes_details": [
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          }
+        ],
+        "status": "Partially Remediated"
+      }
+    },
+    {
+      "slide_number": 27,
+      "slide_title": "Promoting public adoption of PTT",
+      "content_summary": "79 words",
+      "issues": [
+        {
+          "type": "heading_hierarchy",
+          "severity": "medium",
+          "element_type": "heading",
+          "element_number": 1,
+          "slide": 27,
+          "description": "Heading level jumps from h0 to h2",
+          "current_state": "Heading hierarchy: h0 \u2192 h2",
+          "required_action": "Use sequential heading levels (h1, h2, h3, etc.) without skipping",
+          "wcag_criterion": "1.3.1 Info and Relationships",
+          "priority": "Should Fix",
+          "estimated_time": "1-2 minutes",
+          "technical_details": {
+            "element": "<h2>Promoting public adoption of PTT</h2>...",
+            "text": "Promoting public adoption of PTT",
+            "expected_level": "h1"
+          }
+        }
+      ],
+      "accessibility_score": 90,
+      "elements_analyzed": {
+        "images": 0,
+        "links": 0,
+        "headings": 1,
+        "tables": 0,
+        "forms": 0
+      },
+      "remediation": {
+        "automatic_fixes_applied": 18,
+        "manual_actions_remaining": 1,
+        "fixes_details": [
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          }
+        ],
+        "status": "Partially Remediated"
+      }
+    },
+    {
+      "slide_number": 28,
+      "slide_title": "Increasing focus on performance, measurement, and accountability",
+      "content_summary": "65 words",
+      "issues": [
+        {
+          "type": "heading_hierarchy",
+          "severity": "medium",
+          "element_type": "heading",
+          "element_number": 1,
+          "slide": 28,
+          "description": "Heading level jumps from h0 to h2",
+          "current_state": "Heading hierarchy: h0 \u2192 h2",
+          "required_action": "Use sequential heading levels (h1, h2, h3, etc.) without skipping",
+          "wcag_criterion": "1.3.1 Info and Relationships",
+          "priority": "Should Fix",
+          "estimated_time": "1-2 minutes",
+          "technical_details": {
+            "element": "<h2>Increasing focus on performance, measurement, and accountability</h2>...",
+            "text": "Increasing focus on performance, measurement, and accountability",
+            "expected_level": "h1"
+          }
+        }
+      ],
+      "accessibility_score": 90,
+      "elements_analyzed": {
+        "images": 0,
+        "links": 0,
+        "headings": 1,
+        "tables": 0,
+        "forms": 0
+      },
+      "remediation": {
+        "automatic_fixes_applied": 18,
+        "manual_actions_remaining": 1,
+        "fixes_details": [
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          }
+        ],
+        "status": "Partially Remediated"
+      }
+    },
+    {
+      "slide_number": 29,
+      "slide_title": "Legitimizing decision-making processes",
+      "content_summary": "78 words",
+      "issues": [
+        {
+          "type": "heading_hierarchy",
+          "severity": "medium",
+          "element_type": "heading",
+          "element_number": 1,
+          "slide": 29,
+          "description": "Heading level jumps from h0 to h2",
+          "current_state": "Heading hierarchy: h0 \u2192 h2",
+          "required_action": "Use sequential heading levels (h1, h2, h3, etc.) without skipping",
+          "wcag_criterion": "1.3.1 Info and Relationships",
+          "priority": "Should Fix",
+          "estimated_time": "1-2 minutes",
+          "technical_details": {
+            "element": "<h2>Legitimizing decision-making processes</h2>...",
+            "text": "Legitimizing decision-making processes",
+            "expected_level": "h1"
+          }
+        }
+      ],
+      "accessibility_score": 90,
+      "elements_analyzed": {
+        "images": 0,
+        "links": 0,
+        "headings": 1,
+        "tables": 0,
+        "forms": 0
+      },
+      "remediation": {
+        "automatic_fixes_applied": 18,
+        "manual_actions_remaining": 1,
+        "fixes_details": [
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          }
+        ],
+        "status": "Partially Remediated"
+      }
+    },
+    {
+      "slide_number": 30,
+      "slide_title": "Alternative wildlife models",
+      "content_summary": "49 words, 1 image",
+      "issues": [
+        {
+          "type": "missing_alt_text",
+          "severity": "high",
+          "element_type": "image",
+          "element_number": 1,
+          "slide": 30,
+          "description": "Image 1 missing alternative text",
+          "current_state": "No alt attribute",
+          "required_action": "Add descriptive alt text explaining the image content and purpose",
+          "wcag_criterion": "1.1.1 Non-text Content",
+          "priority": "Must Fix",
+          "estimated_time": "2-5 minutes",
+          "technical_details": {
+            "element": "<img data-src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAGo4AAAtJCAYAAAClTtaxAAAACXBIWXMAAC4jAAAuIwF4pT92AAAgAElEQVR4nOzd63XcRrY24LKX/7O/CNSOQH0iEB2BOBGIjsB0BKIjMB2BqAhMRmAyApMRDBnBkBHoWxhvjKE2L31...",
+            "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAGo4AAAtJCAYAAAClTtaxAAAACXBIWXMAAC4jAAAuIwF4pT92AAAgAE..."
+          }
+        },
+        {
+          "type": "heading_hierarchy",
+          "severity": "medium",
+          "element_type": "heading",
+          "element_number": 1,
+          "slide": 30,
+          "description": "Heading level jumps from h0 to h2",
+          "current_state": "Heading hierarchy: h0 \u2192 h2",
+          "required_action": "Use sequential heading levels (h1, h2, h3, etc.) without skipping",
+          "wcag_criterion": "1.3.1 Info and Relationships",
+          "priority": "Should Fix",
+          "estimated_time": "1-2 minutes",
+          "technical_details": {
+            "element": "<h2>Alternative wildlife models</h2>...",
+            "text": "Alternative wildlife models",
+            "expected_level": "h1"
+          }
+        }
+      ],
+      "accessibility_score": 75,
+      "elements_analyzed": {
+        "images": 1,
+        "links": 0,
+        "headings": 1,
+        "tables": 0,
+        "forms": 0
+      },
+      "remediation": {
+        "automatic_fixes_applied": 18,
+        "manual_actions_remaining": 2,
+        "fixes_details": [
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          }
+        ],
+        "status": "Partially Remediated"
+      }
+    },
+    {
+      "slide_number": 31,
+      "slide_title": "Wildlife governance",
+      "content_summary": "64 words",
+      "issues": [
+        {
+          "type": "heading_hierarchy",
+          "severity": "medium",
+          "element_type": "heading",
+          "element_number": 1,
+          "slide": 31,
+          "description": "Heading level jumps from h0 to h2",
+          "current_state": "Heading hierarchy: h0 \u2192 h2",
+          "required_action": "Use sequential heading levels (h1, h2, h3, etc.) without skipping",
+          "wcag_criterion": "1.3.1 Info and Relationships",
+          "priority": "Should Fix",
+          "estimated_time": "1-2 minutes",
+          "technical_details": {
+            "element": "<h2>Wildlife governance</h2>...",
+            "text": "Wildlife governance",
+            "expected_level": "h1"
+          }
+        }
+      ],
+      "accessibility_score": 90,
+      "elements_analyzed": {
+        "images": 0,
+        "links": 0,
+        "headings": 1,
+        "tables": 0,
+        "forms": 0
+      },
+      "remediation": {
+        "automatic_fixes_applied": 18,
+        "manual_actions_remaining": 1,
+        "fixes_details": [
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          }
+        ],
+        "status": "Partially Remediated"
+      }
+    },
+    {
+      "slide_number": 32,
+      "slide_title": "State wildlife commissions",
+      "content_summary": "133 words",
+      "issues": [
+        {
+          "type": "heading_hierarchy",
+          "severity": "medium",
+          "element_type": "heading",
+          "element_number": 1,
+          "slide": 32,
+          "description": "Heading level jumps from h0 to h2",
+          "current_state": "Heading hierarchy: h0 \u2192 h2",
+          "required_action": "Use sequential heading levels (h1, h2, h3, etc.) without skipping",
+          "wcag_criterion": "1.3.1 Info and Relationships",
+          "priority": "Should Fix",
+          "estimated_time": "1-2 minutes",
+          "technical_details": {
+            "element": "<h2>State wildlife commissions</h2>...",
+            "text": "State wildlife commissions",
+            "expected_level": "h1"
+          }
+        }
+      ],
+      "accessibility_score": 90,
+      "elements_analyzed": {
+        "images": 0,
+        "links": 0,
+        "headings": 1,
+        "tables": 0,
+        "forms": 0
+      },
+      "remediation": {
+        "automatic_fixes_applied": 18,
+        "manual_actions_remaining": 1,
+        "fixes_details": [
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          }
+        ],
+        "status": "Partially Remediated"
+      }
+    },
+    {
+      "slide_number": 33,
+      "slide_title": "Collaborative governance",
+      "content_summary": "59 words, 1 image",
+      "issues": [
+        {
+          "type": "missing_alt_text",
+          "severity": "high",
+          "element_type": "image",
+          "element_number": 1,
+          "slide": 33,
+          "description": "Image 1 missing alternative text",
+          "current_state": "No alt attribute",
+          "required_action": "Add descriptive alt text explaining the image content and purpose",
+          "wcag_criterion": "1.1.1 Non-text Content",
+          "priority": "Must Fix",
+          "estimated_time": "2-5 minutes",
+          "technical_details": {
+            "element": "<img data-src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABrIAAAQZCAYAAACJq5oVAAAAAXNSR0IArs4c6QAAAIRlWElmTU0AKgAAAAgABQESAAMAAAABAAEAAAEaAAUAAAABAAAASgEbAAUAAAABAAAAUgEoAAMAAAABAAIAAIdpAAQAAAABAAA...",
+            "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABrIAAAQZCAYAAACJq5oVAAAAAXNSR0IArs4c6QAAAIRlWElmTU0AKg..."
+          }
+        },
+        {
+          "type": "heading_hierarchy",
+          "severity": "medium",
+          "element_type": "heading",
+          "element_number": 1,
+          "slide": 33,
+          "description": "Heading level jumps from h0 to h2",
+          "current_state": "Heading hierarchy: h0 \u2192 h2",
+          "required_action": "Use sequential heading levels (h1, h2, h3, etc.) without skipping",
+          "wcag_criterion": "1.3.1 Info and Relationships",
+          "priority": "Should Fix",
+          "estimated_time": "1-2 minutes",
+          "technical_details": {
+            "element": "<h2>Collaborative governance</h2>...",
+            "text": "Collaborative governance",
+            "expected_level": "h1"
+          }
+        }
+      ],
+      "accessibility_score": 75,
+      "elements_analyzed": {
+        "images": 1,
+        "links": 0,
+        "headings": 1,
+        "tables": 0,
+        "forms": 0
+      },
+      "remediation": {
+        "automatic_fixes_applied": 18,
+        "manual_actions_remaining": 2,
+        "fixes_details": [
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          }
+        ],
+        "status": "Partially Remediated"
+      }
+    },
+    {
+      "slide_number": 34,
+      "slide_title": "Compliance with regulations",
+      "content_summary": "76 words, 1 image, 2 links",
+      "issues": [
+        {
+          "type": "missing_alt_text",
+          "severity": "high",
+          "element_type": "image",
+          "element_number": 1,
+          "slide": 34,
+          "description": "Image 1 missing alternative text",
+          "current_state": "No alt attribute",
+          "required_action": "Add descriptive alt text explaining the image content and purpose",
+          "wcag_criterion": "1.1.1 Non-text Content",
+          "priority": "Must Fix",
+          "estimated_time": "2-5 minutes",
+          "technical_details": {
+            "element": "<img data-src=\"data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAYABgAAD//gA7Q1JFQVRPUjogZ2QtanBlZyB2MS4wICh1c2luZyBJSkcgSlBFRyB2ODApLCBxdWFsaXR5ID0gNzUK/9sAQwAIBgYHBgUIBwcHCQkICgwUDQwLCwwZEhMPFB0aHx4dGhwcIC...",
+            "src": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAYABgAAD//gA7Q1JFQVRPUjogZ2QtanBlZyB2MS4wICh1c2luZyBJSkcgS..."
+          }
+        },
+        {
+          "type": "heading_hierarchy",
+          "severity": "medium",
+          "element_type": "heading",
+          "element_number": 1,
+          "slide": 34,
+          "description": "Heading level jumps from h0 to h2",
+          "current_state": "Heading hierarchy: h0 \u2192 h2",
+          "required_action": "Use sequential heading levels (h1, h2, h3, etc.) without skipping",
+          "wcag_criterion": "1.3.1 Info and Relationships",
+          "priority": "Should Fix",
+          "estimated_time": "1-2 minutes",
+          "technical_details": {
+            "element": "<h2>Compliance with regulations</h2>...",
+            "text": "Compliance with regulations",
+            "expected_level": "h1"
+          }
+        }
+      ],
+      "accessibility_score": 75,
+      "elements_analyzed": {
+        "images": 1,
+        "links": 2,
+        "headings": 1,
+        "tables": 0,
+        "forms": 0
+      },
+      "remediation": {
+        "automatic_fixes_applied": 18,
+        "manual_actions_remaining": 2,
+        "fixes_details": [
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          }
+        ],
+        "status": "Partially Remediated"
+      }
+    }
+  ],
+  "remediation_summary": {
+    "automatic_fixes": [
+      {
+        "type": "alt_text",
+        "description": "Added basic alt text: 'Image content' to image"
+      },
+      {
+        "type": "alt_text",
+        "description": "Added basic alt text: 'Image content' to image"
+      },
+      {
+        "type": "alt_text",
+        "description": "Added basic alt text: 'Image content' to image"
+      },
+      {
+        "type": "alt_text",
+        "description": "Added basic alt text: 'Image content' to image"
+      },
+      {
+        "type": "alt_text",
+        "description": "Added basic alt text: 'Image content' to image"
+      },
+      {
+        "type": "alt_text",
+        "description": "Added basic alt text: 'Image content' to image"
+      },
+      {
+        "type": "alt_text",
+        "description": "Added basic alt text: 'Image content' to image"
+      },
+      {
+        "type": "alt_text",
+        "description": "Added basic alt text: 'Image content' to image"
+      },
+      {
+        "type": "alt_text",
+        "description": "Added basic alt text: 'Image content' to image"
+      },
+      {
+        "type": "alt_text",
+        "description": "Added basic alt text: 'Image content' to image"
+      },
+      {
+        "type": "alt_text",
+        "description": "Added basic alt text: 'Image content' to image"
+      },
+      {
+        "type": "alt_text",
+        "description": "Added basic alt text: 'Image content' to image"
+      },
+      {
+        "type": "alt_text",
+        "description": "Added basic alt text: 'Image content' to image"
+      },
+      {
+        "type": "alt_text",
+        "description": "Added basic alt text: 'Image content' to image"
+      },
+      {
+        "type": "alt_text",
+        "description": "Added basic alt text: 'Image content' to image"
+      },
+      {
+        "type": "alt_text",
+        "description": "Added basic alt text: 'Image content' to image"
+      },
+      {
+        "type": "alt_text",
+        "description": "Added basic alt text: 'Image content' to image"
+      },
+      {
+        "type": "alt_text",
+        "description": "Added basic alt text: 'Image content' to image"
+      }
+    ],
+    "manual_actions_needed": [
+      {
+        "issue_type": "Missing Alt Text",
+        "count": 18,
+        "slides_affected": [
+          4,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          19,
+          20,
+          23,
+          25,
+          26,
+          30,
+          33,
+          34
+        ],
+        "priority": "Must Fix",
+        "total_estimated_time": "63 minutes",
+        "wcag_criterion": "1.1.1 Non-text Content",
+        "action_needed": "Add descriptive alt text explaining the image content and purpose",
+        "status": "Manual Review Required"
+      },
+      {
+        "issue_type": "Heading Hierarchy",
+        "count": 26,
+        "slides_affected": [
+          2,
+          3,
+          4,
+          5,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34
+        ],
+        "priority": "Should Fix",
+        "total_estimated_time": "39 minutes",
+        "wcag_criterion": "1.3.1 Info and Relationships",
+        "action_needed": "Use sequential heading levels (h1, h2, h3, etc.) without skipping",
+        "status": "Manual Review Required"
+      }
+    ],
+    "wcag_compliance_status": {}
+  }
+}

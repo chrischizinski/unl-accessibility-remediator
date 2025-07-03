@@ -1,0 +1,1014 @@
+{
+  "document_info": {
+    "file_name": "2024-04-02-Module06.html",
+    "file_path": "testing/sample_files/2024-04-02-Module06.html",
+    "analysis_date": "2025-07-03T10:49:34.321640",
+    "total_slides": 12,
+    "file_type": "HTML Presentation"
+  },
+  "executive_summary": {
+    "overall_score": 83,
+    "total_issues": 17,
+    "critical_issues": 0,
+    "high_issues": 6,
+    "medium_issues": 11,
+    "low_issues": 0,
+    "fixes_applied": 6,
+    "manual_review_needed": 0
+  },
+  "slides": [
+    {
+      "slide_number": 1,
+      "slide_title": "US Wildlife Policy",
+      "content_summary": "6 words",
+      "issues": [],
+      "accessibility_score": 100,
+      "elements_analyzed": {
+        "images": 0,
+        "links": 0,
+        "headings": 1,
+        "tables": 0,
+        "forms": 0
+      },
+      "remediation": {
+        "automatic_fixes_applied": 6,
+        "manual_actions_remaining": 0,
+        "fixes_details": [
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image' to image",
+            "status": "Applied Automatically"
+          }
+        ],
+        "status": "Fully Remediated"
+      }
+    },
+    {
+      "slide_number": 2,
+      "slide_title": "Wildlife protection",
+      "content_summary": "27 words",
+      "issues": [
+        {
+          "type": "heading_hierarchy",
+          "severity": "medium",
+          "element_type": "heading",
+          "element_number": 1,
+          "slide": 2,
+          "description": "Heading level jumps from h0 to h2",
+          "current_state": "Heading hierarchy: h0 \u2192 h2",
+          "required_action": "Use sequential heading levels (h1, h2, h3, etc.) without skipping",
+          "wcag_criterion": "1.3.1 Info and Relationships",
+          "priority": "Should Fix",
+          "estimated_time": "1-2 minutes",
+          "technical_details": {
+            "element": "<h2>Wildlife protection</h2>...",
+            "text": "Wildlife protection",
+            "expected_level": "h1"
+          }
+        }
+      ],
+      "accessibility_score": 90,
+      "elements_analyzed": {
+        "images": 0,
+        "links": 0,
+        "headings": 1,
+        "tables": 0,
+        "forms": 0
+      },
+      "remediation": {
+        "automatic_fixes_applied": 6,
+        "manual_actions_remaining": 1,
+        "fixes_details": [
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image' to image",
+            "status": "Applied Automatically"
+          }
+        ],
+        "status": "Partially Remediated"
+      }
+    },
+    {
+      "slide_number": 3,
+      "slide_title": "A brief history of wildlife law",
+      "content_summary": "51 words, 1 image",
+      "issues": [
+        {
+          "type": "missing_alt_text",
+          "severity": "high",
+          "element_type": "image",
+          "element_number": 1,
+          "slide": 3,
+          "description": "Image 1 missing alternative text",
+          "current_state": "No alt attribute",
+          "required_action": "Add descriptive alt text explaining the image content and purpose",
+          "wcag_criterion": "1.1.1 Non-text Content",
+          "priority": "Must Fix",
+          "estimated_time": "2-5 minutes",
+          "technical_details": {
+            "element": "<img data-src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABB0AAAPvCAYAAACP+LYCAAAKq2lDQ1BJQ0MgUHJvZmlsZQAASImVlwdUk9kSgO///+kkBEiIgJTQmyCdAFJCD703UQlJgFBCCAQVu7K4gmtBRARs6FJEwbUAslYsWFFUwIIuyKKgPhc...",
+            "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABB0AAAPvCAYAAACP+LYCAAAKq2lDQ1BJQ0MgUHJvZmlsZQAASImVlw..."
+          }
+        },
+        {
+          "type": "heading_hierarchy",
+          "severity": "medium",
+          "element_type": "heading",
+          "element_number": 1,
+          "slide": 3,
+          "description": "Heading level jumps from h0 to h2",
+          "current_state": "Heading hierarchy: h0 \u2192 h2",
+          "required_action": "Use sequential heading levels (h1, h2, h3, etc.) without skipping",
+          "wcag_criterion": "1.3.1 Info and Relationships",
+          "priority": "Should Fix",
+          "estimated_time": "1-2 minutes",
+          "technical_details": {
+            "element": "<h2>A brief history of wildlife law</h2>...",
+            "text": "A brief history of wildlife law",
+            "expected_level": "h1"
+          }
+        }
+      ],
+      "accessibility_score": 75,
+      "elements_analyzed": {
+        "images": 1,
+        "links": 0,
+        "headings": 2,
+        "tables": 0,
+        "forms": 0
+      },
+      "remediation": {
+        "automatic_fixes_applied": 6,
+        "manual_actions_remaining": 2,
+        "fixes_details": [
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image' to image",
+            "status": "Applied Automatically"
+          }
+        ],
+        "status": "Partially Remediated"
+      }
+    },
+    {
+      "slide_number": 4,
+      "slide_title": "A brief history of wildlife law",
+      "content_summary": "61 words, 1 image",
+      "issues": [
+        {
+          "type": "missing_alt_text",
+          "severity": "high",
+          "element_type": "image",
+          "element_number": 1,
+          "slide": 4,
+          "description": "Image 1 missing alternative text",
+          "current_state": "No alt attribute",
+          "required_action": "Add descriptive alt text explaining the image content and purpose",
+          "wcag_criterion": "1.1.1 Non-text Content",
+          "priority": "Must Fix",
+          "estimated_time": "2-5 minutes",
+          "technical_details": {
+            "element": "<img data-fig.width=\"120%\" data-src=\"data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAUFBQUFBQUGBgUICAcICAsKCQkKCxEMDQwNDBEaEBMQEBMQGhcbFhUWGxcpIBwcICkvJyUnLzkzMzlHREddXX0BBQUFBQUFBQYGBQgIBwgI...",
+            "src": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAUFBQUFBQUGBgUICAcICAsKCQkKCxEMDQwNDBEaEBMQE..."
+          }
+        },
+        {
+          "type": "heading_hierarchy",
+          "severity": "medium",
+          "element_type": "heading",
+          "element_number": 1,
+          "slide": 4,
+          "description": "Heading level jumps from h0 to h2",
+          "current_state": "Heading hierarchy: h0 \u2192 h2",
+          "required_action": "Use sequential heading levels (h1, h2, h3, etc.) without skipping",
+          "wcag_criterion": "1.3.1 Info and Relationships",
+          "priority": "Should Fix",
+          "estimated_time": "1-2 minutes",
+          "technical_details": {
+            "element": "<h2>A brief history of wildlife law</h2>...",
+            "text": "A brief history of wildlife law",
+            "expected_level": "h1"
+          }
+        }
+      ],
+      "accessibility_score": 75,
+      "elements_analyzed": {
+        "images": 1,
+        "links": 0,
+        "headings": 2,
+        "tables": 0,
+        "forms": 0
+      },
+      "remediation": {
+        "automatic_fixes_applied": 6,
+        "manual_actions_remaining": 2,
+        "fixes_details": [
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image' to image",
+            "status": "Applied Automatically"
+          }
+        ],
+        "status": "Partially Remediated"
+      }
+    },
+    {
+      "slide_number": 5,
+      "slide_title": "A brief history of wildlife law",
+      "content_summary": "135 words, 1 image",
+      "issues": [
+        {
+          "type": "missing_alt_text",
+          "severity": "high",
+          "element_type": "image",
+          "element_number": 1,
+          "slide": 5,
+          "description": "Image 1 missing alternative text",
+          "current_state": "No alt attribute",
+          "required_action": "Add descriptive alt text explaining the image content and purpose",
+          "wcag_criterion": "1.1.1 Non-text Content",
+          "priority": "Must Fix",
+          "estimated_time": "2-5 minutes",
+          "technical_details": {
+            "element": "<img data-fig.width=\"150%\" data-src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABAAAAAKrCAMAAABYyA+mAAADAFBMVEUAAAAAAAAAAAApXXcAAAAAAAAAAABHcEwAAAAAAAAAAQExMCwqXnopWnMkHBEsYn4uLCrW19EVEAkqIRHy8uxJQ...",
+            "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABAAAAAKrCAMAAABYyA+mAAADAFBMVEUAAAAAAAAAAAApXXcAAAAAAA..."
+          }
+        },
+        {
+          "type": "heading_hierarchy",
+          "severity": "medium",
+          "element_type": "heading",
+          "element_number": 1,
+          "slide": 5,
+          "description": "Heading level jumps from h0 to h2",
+          "current_state": "Heading hierarchy: h0 \u2192 h2",
+          "required_action": "Use sequential heading levels (h1, h2, h3, etc.) without skipping",
+          "wcag_criterion": "1.3.1 Info and Relationships",
+          "priority": "Should Fix",
+          "estimated_time": "1-2 minutes",
+          "technical_details": {
+            "element": "<h2>A brief history of wildlife law</h2>...",
+            "text": "A brief history of wildlife law",
+            "expected_level": "h1"
+          }
+        }
+      ],
+      "accessibility_score": 75,
+      "elements_analyzed": {
+        "images": 1,
+        "links": 0,
+        "headings": 3,
+        "tables": 0,
+        "forms": 0
+      },
+      "remediation": {
+        "automatic_fixes_applied": 6,
+        "manual_actions_remaining": 2,
+        "fixes_details": [
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image' to image",
+            "status": "Applied Automatically"
+          }
+        ],
+        "status": "Partially Remediated"
+      }
+    },
+    {
+      "slide_number": 6,
+      "slide_title": "Wildlife management today",
+      "content_summary": "101 words, 1 image",
+      "issues": [
+        {
+          "type": "missing_alt_text",
+          "severity": "high",
+          "element_type": "image",
+          "element_number": 1,
+          "slide": 6,
+          "description": "Image 1 missing alternative text",
+          "current_state": "No alt attribute",
+          "required_action": "Add descriptive alt text explaining the image content and purpose",
+          "wcag_criterion": "1.1.1 Non-text Content",
+          "priority": "Must Fix",
+          "estimated_time": "2-5 minutes",
+          "technical_details": {
+            "element": "<img data-fig.width=\"120%\" data-src=\"data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/7QBuUGhvdG9zaG9wIDMuMAA4QklNBAQAAAAAAFEcAVoAAxslRxwCAAACAAAcAnQAPcKpIFJvYmVydCBDLiBEaWVib2xkIC0gaHR0cDovL3d3dy5y...",
+            "src": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/7QBuUGhvdG9zaG9wIDMuMAA4QklNBAQAAAAAAFEcAVoAAxslR..."
+          }
+        },
+        {
+          "type": "heading_hierarchy",
+          "severity": "medium",
+          "element_type": "heading",
+          "element_number": 1,
+          "slide": 6,
+          "description": "Heading level jumps from h0 to h2",
+          "current_state": "Heading hierarchy: h0 \u2192 h2",
+          "required_action": "Use sequential heading levels (h1, h2, h3, etc.) without skipping",
+          "wcag_criterion": "1.3.1 Info and Relationships",
+          "priority": "Should Fix",
+          "estimated_time": "1-2 minutes",
+          "technical_details": {
+            "element": "<h2>Wildlife management today</h2>...",
+            "text": "Wildlife management today",
+            "expected_level": "h1"
+          }
+        }
+      ],
+      "accessibility_score": 75,
+      "elements_analyzed": {
+        "images": 1,
+        "links": 0,
+        "headings": 2,
+        "tables": 0,
+        "forms": 0
+      },
+      "remediation": {
+        "automatic_fixes_applied": 6,
+        "manual_actions_remaining": 2,
+        "fixes_details": [
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image' to image",
+            "status": "Applied Automatically"
+          }
+        ],
+        "status": "Partially Remediated"
+      }
+    },
+    {
+      "slide_number": 7,
+      "slide_title": "Protection of endangered species",
+      "content_summary": "75 words, 1 image",
+      "issues": [
+        {
+          "type": "missing_alt_text",
+          "severity": "high",
+          "element_type": "image",
+          "element_number": 1,
+          "slide": 7,
+          "description": "Image 1 missing alternative text",
+          "current_state": "No alt attribute",
+          "required_action": "Add descriptive alt text explaining the image content and purpose",
+          "wcag_criterion": "1.1.1 Non-text Content",
+          "priority": "Must Fix",
+          "estimated_time": "2-5 minutes",
+          "technical_details": {
+            "element": "<img data-fig.width=\"120%\" data-src=\"data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/4SXpRXhpZgAATU0AKgAAAAgADAEAAAMAAAABKjAAAAEBAAMAAAABHCAAAAECAAMAAAADAAAAngEGAAMAAAABAAIAAAESAAMAAAABAAEAAAEVAAMA...",
+            "src": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/4SXpRXhpZgAATU0AKgAAAAgADAEAAAMAAAABKjAAAAEBAAMAA..."
+          }
+        },
+        {
+          "type": "heading_hierarchy",
+          "severity": "medium",
+          "element_type": "heading",
+          "element_number": 1,
+          "slide": 7,
+          "description": "Heading level jumps from h0 to h2",
+          "current_state": "Heading hierarchy: h0 \u2192 h2",
+          "required_action": "Use sequential heading levels (h1, h2, h3, etc.) without skipping",
+          "wcag_criterion": "1.3.1 Info and Relationships",
+          "priority": "Should Fix",
+          "estimated_time": "1-2 minutes",
+          "technical_details": {
+            "element": "<h2>Protection of endangered species</h2>...",
+            "text": "Protection of endangered species",
+            "expected_level": "h1"
+          }
+        }
+      ],
+      "accessibility_score": 75,
+      "elements_analyzed": {
+        "images": 1,
+        "links": 0,
+        "headings": 2,
+        "tables": 0,
+        "forms": 0
+      },
+      "remediation": {
+        "automatic_fixes_applied": 6,
+        "manual_actions_remaining": 2,
+        "fixes_details": [
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image' to image",
+            "status": "Applied Automatically"
+          }
+        ],
+        "status": "Partially Remediated"
+      }
+    },
+    {
+      "slide_number": 8,
+      "slide_title": "Listing species",
+      "content_summary": "163 words",
+      "issues": [
+        {
+          "type": "heading_hierarchy",
+          "severity": "medium",
+          "element_type": "heading",
+          "element_number": 1,
+          "slide": 8,
+          "description": "Heading level jumps from h0 to h2",
+          "current_state": "Heading hierarchy: h0 \u2192 h2",
+          "required_action": "Use sequential heading levels (h1, h2, h3, etc.) without skipping",
+          "wcag_criterion": "1.3.1 Info and Relationships",
+          "priority": "Should Fix",
+          "estimated_time": "1-2 minutes",
+          "technical_details": {
+            "element": "<h2>Listing species</h2>...",
+            "text": "Listing species",
+            "expected_level": "h1"
+          }
+        }
+      ],
+      "accessibility_score": 90,
+      "elements_analyzed": {
+        "images": 0,
+        "links": 0,
+        "headings": 1,
+        "tables": 0,
+        "forms": 0
+      },
+      "remediation": {
+        "automatic_fixes_applied": 6,
+        "manual_actions_remaining": 1,
+        "fixes_details": [
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image' to image",
+            "status": "Applied Automatically"
+          }
+        ],
+        "status": "Partially Remediated"
+      }
+    },
+    {
+      "slide_number": 9,
+      "slide_title": "Limits on federal actions",
+      "content_summary": "57 words",
+      "issues": [
+        {
+          "type": "heading_hierarchy",
+          "severity": "medium",
+          "element_type": "heading",
+          "element_number": 1,
+          "slide": 9,
+          "description": "Heading level jumps from h0 to h2",
+          "current_state": "Heading hierarchy: h0 \u2192 h2",
+          "required_action": "Use sequential heading levels (h1, h2, h3, etc.) without skipping",
+          "wcag_criterion": "1.3.1 Info and Relationships",
+          "priority": "Should Fix",
+          "estimated_time": "1-2 minutes",
+          "technical_details": {
+            "element": "<h2>Limits on federal actions</h2>...",
+            "text": "Limits on federal actions",
+            "expected_level": "h1"
+          }
+        }
+      ],
+      "accessibility_score": 90,
+      "elements_analyzed": {
+        "images": 0,
+        "links": 0,
+        "headings": 1,
+        "tables": 0,
+        "forms": 0
+      },
+      "remediation": {
+        "automatic_fixes_applied": 6,
+        "manual_actions_remaining": 1,
+        "fixes_details": [
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image' to image",
+            "status": "Applied Automatically"
+          }
+        ],
+        "status": "Partially Remediated"
+      }
+    },
+    {
+      "slide_number": 10,
+      "slide_title": "Private violations",
+      "content_summary": "143 words, 1 link",
+      "issues": [
+        {
+          "type": "heading_hierarchy",
+          "severity": "medium",
+          "element_type": "heading",
+          "element_number": 1,
+          "slide": 10,
+          "description": "Heading level jumps from h0 to h2",
+          "current_state": "Heading hierarchy: h0 \u2192 h2",
+          "required_action": "Use sequential heading levels (h1, h2, h3, etc.) without skipping",
+          "wcag_criterion": "1.3.1 Info and Relationships",
+          "priority": "Should Fix",
+          "estimated_time": "1-2 minutes",
+          "technical_details": {
+            "element": "<h2>Private violations</h2>...",
+            "text": "Private violations",
+            "expected_level": "h1"
+          }
+        }
+      ],
+      "accessibility_score": 90,
+      "elements_analyzed": {
+        "images": 0,
+        "links": 1,
+        "headings": 4,
+        "tables": 0,
+        "forms": 0
+      },
+      "remediation": {
+        "automatic_fixes_applied": 6,
+        "manual_actions_remaining": 1,
+        "fixes_details": [
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image' to image",
+            "status": "Applied Automatically"
+          }
+        ],
+        "status": "Partially Remediated"
+      }
+    },
+    {
+      "slide_number": 11,
+      "slide_title": "Private violations",
+      "content_summary": "113 words",
+      "issues": [
+        {
+          "type": "heading_hierarchy",
+          "severity": "medium",
+          "element_type": "heading",
+          "element_number": 1,
+          "slide": 11,
+          "description": "Heading level jumps from h0 to h2",
+          "current_state": "Heading hierarchy: h0 \u2192 h2",
+          "required_action": "Use sequential heading levels (h1, h2, h3, etc.) without skipping",
+          "wcag_criterion": "1.3.1 Info and Relationships",
+          "priority": "Should Fix",
+          "estimated_time": "1-2 minutes",
+          "technical_details": {
+            "element": "<h2>Private violations</h2>...",
+            "text": "Private violations",
+            "expected_level": "h1"
+          }
+        }
+      ],
+      "accessibility_score": 90,
+      "elements_analyzed": {
+        "images": 0,
+        "links": 0,
+        "headings": 4,
+        "tables": 0,
+        "forms": 0
+      },
+      "remediation": {
+        "automatic_fixes_applied": 6,
+        "manual_actions_remaining": 1,
+        "fixes_details": [
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image' to image",
+            "status": "Applied Automatically"
+          }
+        ],
+        "status": "Partially Remediated"
+      }
+    },
+    {
+      "slide_number": 12,
+      "slide_title": "Other endangered species protections",
+      "content_summary": "94 words, 1 image, 1 link",
+      "issues": [
+        {
+          "type": "missing_alt_text",
+          "severity": "high",
+          "element_type": "image",
+          "element_number": 1,
+          "slide": 12,
+          "description": "Image 1 missing alternative text",
+          "current_state": "No alt attribute",
+          "required_action": "Add descriptive alt text explaining the image content and purpose",
+          "wcag_criterion": "1.1.1 Non-text Content",
+          "priority": "Must Fix",
+          "estimated_time": "2-5 minutes",
+          "technical_details": {
+            "element": "<img class=\"slide-logo\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA3AAAADICAYAAACpmwNSAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAABM5QAATOUBdc7wlQAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAACAAS...",
+            "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA3AAAADICAYAAACpmwNSAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAA..."
+          }
+        },
+        {
+          "type": "heading_hierarchy",
+          "severity": "medium",
+          "element_type": "heading",
+          "element_number": 1,
+          "slide": 12,
+          "description": "Heading level jumps from h0 to h2",
+          "current_state": "Heading hierarchy: h0 \u2192 h2",
+          "required_action": "Use sequential heading levels (h1, h2, h3, etc.) without skipping",
+          "wcag_criterion": "1.3.1 Info and Relationships",
+          "priority": "Should Fix",
+          "estimated_time": "1-2 minutes",
+          "technical_details": {
+            "element": "<h2>Other endangered species protections</h2>...",
+            "text": "Other endangered species protections",
+            "expected_level": "h1"
+          }
+        }
+      ],
+      "accessibility_score": 75,
+      "elements_analyzed": {
+        "images": 1,
+        "links": 1,
+        "headings": 3,
+        "tables": 0,
+        "forms": 0
+      },
+      "remediation": {
+        "automatic_fixes_applied": 6,
+        "manual_actions_remaining": 2,
+        "fixes_details": [
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image content' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image' to image",
+            "status": "Applied Automatically"
+          }
+        ],
+        "status": "Partially Remediated"
+      }
+    }
+  ],
+  "remediation_summary": {
+    "automatic_fixes": [
+      {
+        "type": "alt_text",
+        "description": "Added basic alt text: 'Image content' to image"
+      },
+      {
+        "type": "alt_text",
+        "description": "Added basic alt text: 'Image content' to image"
+      },
+      {
+        "type": "alt_text",
+        "description": "Added basic alt text: 'Image content' to image"
+      },
+      {
+        "type": "alt_text",
+        "description": "Added basic alt text: 'Image content' to image"
+      },
+      {
+        "type": "alt_text",
+        "description": "Added basic alt text: 'Image content' to image"
+      },
+      {
+        "type": "alt_text",
+        "description": "Added basic alt text: 'Image' to image"
+      }
+    ],
+    "manual_actions_needed": [
+      {
+        "issue_type": "Missing Alt Text",
+        "count": 6,
+        "slides_affected": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          12
+        ],
+        "priority": "Must Fix",
+        "total_estimated_time": "21 minutes",
+        "wcag_criterion": "1.1.1 Non-text Content",
+        "action_needed": "Add descriptive alt text explaining the image content and purpose",
+        "status": "Manual Review Required"
+      },
+      {
+        "issue_type": "Heading Hierarchy",
+        "count": 11,
+        "slides_affected": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "priority": "Should Fix",
+        "total_estimated_time": "16 minutes",
+        "wcag_criterion": "1.3.1 Info and Relationships",
+        "action_needed": "Use sequential heading levels (h1, h2, h3, etc.) without skipping",
+        "status": "Manual Review Required"
+      }
+    ],
+    "wcag_compliance_status": {}
+  }
+}

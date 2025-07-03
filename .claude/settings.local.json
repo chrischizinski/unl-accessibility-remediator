@@ -18,7 +18,16 @@
       "mcp__zen-mcp-server__chat",
       "Bash(gh auth:*)",
       "Bash(source:*)",
-      "Bash(git add:*)"
+      "Bash(git add:*)",
+      "Bash(mkdir:*)",
+      "Bash(grep:*)",
+      "Bash(./testing/run_tests.sh:*)",
+      "Bash(timeout 30 python3:*)",
+      "Bash(docker-compose:*)",
+      "Bash(./start-accessibility-tool.sh:*)",
+      "Bash(curl:*)",
+      "Bash(pkill:*)",
+      "Bash(timeout:*)"
     ],
     "deny": []
   }

@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample UNL Presentation - Accessibility Testing</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background: #f5f1e7; /* UNL Cream */
+        }
+        
+        .slide {
+            background: white;
+            margin: 20px 0;
+            padding: 30px;
+            border: 2px solid #d00000; /* UNL Scarlet */
+            page-break-after: always;
+        }
+        
+        h1 {
+            color: #d00000; /* UNL Scarlet */
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+        
+        h2 {
+            color: #333;
+            font-size: 2em;
+            margin-bottom: 15px;
+        }
+        
+        /* Poor contrast - should be flagged */
+        .poor-contrast {
+            color: #ccc;
+            background: white;
+        }
+        
+        /* Good contrast */
+        .good-contrast {
+            color: #333;
+            background: white;
+        }
+        
+        .link-issues {
+            color: #0066cc;
+            text-decoration: underline;
+        }
+        
+        img {
+            max-width: 100%;
+            height: auto;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Slide 1: Title Slide with Issues -->
+<div class="slide">
+    <h1>Digital Accessibility in Higher Education</h1>
+    <h2>Preparing for ADA Title II Compliance</h2>
+    
+    <!-- Image without alt text - should be flagged -->
+    <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzAwIiBoZWlnaHQ9IjIwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8cmVjdCB3aWR0aD0iMzAwIiBoZWlnaHQ9IjIwMCIgZmlsbD0iI2QwMDAwMCIvPgogIDx0ZXh0IHg9IjE1MCIgeT0iMTAwIiBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMjQiIGZpbGw9IndoaXRlIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBkeT0iLjNlbSI+VU5MIExvZ288L3RleHQ+Cjwvc3ZnPg==" />
+    
+    <p>University of Nebraska-Lincoln</p>
+    <p>Center for Transformative Teaching</p>
+    <p>Spring 2024</p>
+</div>
+
+<!-- Slide 2: Content with Multiple Issues -->
+<div class="slide">
+    <h2>Overview of Requirements</h2>
+    
+    <ul>
+        <li>Federal deadline: April 24, 2026</li>
+        <li>Standard: WCAG 2.1 Level AA</li>
+        <li class="poor-contrast">This text has poor contrast and should be flagged</li>
+        <li class="good-contrast">This text has good contrast</li>
+    </ul>
+    
+    <!-- Vague link text - should be flagged -->
+    <p>For more information, <a href="#" class="link-issues">click here</a> to learn more.</p>
+    
+    <!-- Better link text -->
+    <p>Review the <a href="#" class="link-issues">UNL Digital Accessibility Guidelines</a> for detailed requirements.</p>
+    
+    <!-- Image with poor alt text - should be flagged -->
+    <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8cmVjdCB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIgZmlsbD0iI2Y1ZjFlNyIgc3Ryb2tlPSIjZDAwMDAwIiBzdHJva2Utd2lkdGg9IjIiLz4KICA8Y2lyY2xlIGN4PSIyMDAiIGN5PSIxNTAiIHI9IjUwIiBmaWxsPSIjZDAwMDAwIi8+CiAgPHRleHQgeD0iMjAwIiB5PSIyNTAiIGZvbnQtZmFtaWx5PSJBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxOCIgZmlsbD0iIzMzMyIgdGV4dC1hbmNob3I9Im1pZGRsZSI+Q2hhcnQ8L3RleHQ+Cjwvc3ZnPg==" alt="image" />
+</div>
+
+<!-- Slide 3: Missing Heading Structure -->
+<div class="slide">
+    <!-- Missing h2 heading - should be flagged -->
+    <h3>Implementation Timeline</h3>
+    
+    <ol>
+        <li><strong>Phase 1:</strong> Assessment and Planning (Fall 2024)</li>
+        <li><strong>Phase 2:</strong> Faculty Training (Spring 2025)</li>
+        <li><strong>Phase 3:</strong> Content Remediation (Summer 2025)</li>
+        <li><strong>Phase 4:</strong> Compliance Monitoring (Ongoing)</li>
+    </ol>
+    
+    <!-- Image with good alt text -->
+    <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNTAwIiBoZWlnaHQ9IjIwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8cmVjdCB3aWR0aD0iNTAwIiBoZWlnaHQ9IjIwMCIgZmlsbD0iI2Y1ZjFlNyIvPgogIDxsaW5lIHgxPSI1MCIgeTE9IjE1MCIgeDI9IjQ1MCIgeTI9IjE1MCIgc3Ryb2tlPSIjZDAwMDAwIiBzdHJva2Utd2lkdGg9IjMiLz4KICA8Y2lyY2xlIGN4PSIxMDAiIGN5PSIxNTAiIHI9IjEwIiBmaWxsPSIjZDAwMDAwIi8+CiAgPGNpcmNsZSBjeD0iMjAwIiBjeT0iMTUwIiByPSIxMCIgZmlsbD0iI2QwMDAwMCIvPgogIDxjaXJjbGUgY3g9IjMwMCIgY3k9IjE1MCIgcj0iMTAiIGZpbGw9IiNkMDAwMDAiLz4KICA8Y2lyY2xlIGN4PSI0MDAiIGN5PSIxNTAiIHI9IjEwIiBmaWxsPSIjZDAwMDAwIi8+CiAgPHRleHQgeD0iMjUwIiB5PSIzMCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjE4IiBmaWxsPSIjMzMzIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIj5JbXBsZW1lbnRhdGlvbiBUaW1lbGluZTwvdGV4dD4KPC9zdmc+" alt="Timeline chart showing four phases of accessibility implementation from Fall 2024 through ongoing monitoring, with milestones marked at quarterly intervals" />
+</div>
+
+<!-- Slide 4: Resources and Links -->
+<div class="slide">
+    <h2>Resources and Support</h2>
+    
+    <h3>Training Opportunities</h3>
+    <ul>
+        <li>Digital Accessibility Training in Bridge</li>
+        <li>Faculty Development Workshops</li>
+        <li>Canvas Accessibility Course</li>
+    </ul>
+    
+    <h3>Technical Support</h3>
+    <ul>
+        <!-- Mix of good and poor link text -->
+        <li><a href="#" class="link-issues">More info</a> about technical requirements</li>
+        <li><a href="#" class="link-issues">UNL Accessibility Tool documentation</a></li>
+        <li>Contact <a href="#" class="link-issues">IT Help Desk for technical support</a></li>
+    </ul>
+    
+    <!-- Decorative image (should have empty alt or alt="") -->
+    <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAwIiBoZWlnaHQ9IjEwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8cmVjdCB3aWR0aD0iMjAwIiBoZWlnaHQ9IjEwMCIgZmlsbD0iI2Y1ZjFlNyIvPgogIDx0ZXh0IHg9IjEwMCIgeT0iNTUiIGZvbnQtZmFtaWx5PSJBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxNCIgZmlsbD0iI2QwMDAwMCIgdGV4dC1hbmNob3I9Im1pZGRsZSI+RGVjb3JhdGl2ZSBHcmFwaGljPC90ZXh0Pgo8L3N2Zz4=" alt="decorative border graphic" />
+</div>
+
+<!-- Slide 5: Contact Information -->
+<div class="slide">
+    <h2>Questions and Support</h2>
+    
+    <div style="font-size: 1.2em; line-height: 1.6;">
+        <p><strong>Center for Transformative Teaching</strong></p>
+        <p>Email: teaching@unl.edu</p>
+        <p>Phone: (402) 472-3079</p>
+        
+        <p><strong>IT Help Desk</strong></p>
+        <p>Email: help@unl.edu</p>
+        <p>Phone: (402) 472-3970</p>
+        
+        <!-- Very small text - should be flagged -->
+        <p style="font-size: 8px;">This presentation was created for training purposes only.</p>
+    </div>
+    
+    <!-- All caps text - should be flagged -->
+    <p style="font-size: 1.1em;"><strong>THANK YOU FOR YOUR ATTENTION TO DIGITAL ACCESSIBILITY!</strong></p>
+</div>
+
+</body>
+</html>

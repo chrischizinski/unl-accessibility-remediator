@@ -1,0 +1,460 @@
+{
+  "document_info": {
+    "file_name": "sample_presentation.html",
+    "file_path": "testing/sample_files/sample_presentation.html",
+    "analysis_date": "2025-07-03T10:49:34.317597",
+    "total_slides": 5,
+    "file_type": "HTML Presentation"
+  },
+  "executive_summary": {
+    "overall_score": 81,
+    "total_issues": 9,
+    "critical_issues": 0,
+    "high_issues": 1,
+    "medium_issues": 8,
+    "low_issues": 0,
+    "fixes_applied": 3,
+    "manual_review_needed": 0
+  },
+  "slides": [
+    {
+      "slide_number": 1,
+      "slide_title": "Digital Accessibility in Higher Education",
+      "content_summary": "20 words, 1 image",
+      "issues": [
+        {
+          "type": "missing_alt_text",
+          "severity": "high",
+          "element_type": "image",
+          "element_number": 1,
+          "slide": 1,
+          "description": "Image 1 missing alternative text",
+          "current_state": "No alt attribute",
+          "required_action": "Add descriptive alt text explaining the image content and purpose",
+          "wcag_criterion": "1.1.1 Non-text Content",
+          "priority": "Must Fix",
+          "estimated_time": "2-5 minutes",
+          "technical_details": {
+            "element": "<img src=\"data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzAwIiBoZWlnaHQ9IjIwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8cmVjdCB3aWR0aD0iMzAwIiBoZWlnaHQ9IjIwMCIgZmlsbD0iI2QwMDAwMCIvPgogIDx0ZXh0...",
+            "src": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzAwIiBoZWlnaHQ9IjIwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLz..."
+          }
+        }
+      ],
+      "accessibility_score": 85,
+      "elements_analyzed": {
+        "images": 1,
+        "links": 0,
+        "headings": 2,
+        "tables": 0,
+        "forms": 0
+      },
+      "remediation": {
+        "automatic_fixes_applied": 3,
+        "manual_actions_remaining": 1,
+        "fixes_details": [
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "link_text",
+            "description": "Improved link text from 'click here' to 'View more information'",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "link_text",
+            "description": "Improved link text from 'more info' to 'More information'",
+            "status": "Applied Automatically"
+          }
+        ],
+        "status": "Partially Remediated"
+      }
+    },
+    {
+      "slide_number": 2,
+      "slide_title": "Overview of Requirements",
+      "content_summary": "44 words, 1 image, 2 links",
+      "issues": [
+        {
+          "type": "poor_alt_text",
+          "severity": "medium",
+          "element_type": "image",
+          "element_number": 1,
+          "slide": 2,
+          "description": "Image 1 has poor quality alt text: 'image'",
+          "current_state": "Alt text: 'image'",
+          "required_action": "Replace with descriptive alt text that explains the image's content and purpose",
+          "wcag_criterion": "1.1.1 Non-text Content",
+          "priority": "Should Fix",
+          "estimated_time": "3-7 minutes",
+          "technical_details": {
+            "element": "<img alt=\"image\" src=\"data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8cmVjdCB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIgZmlsbD0iI2Y1ZjFlNyIg...",
+            "current_alt": "image",
+            "src": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLz..."
+          }
+        },
+        {
+          "type": "vague_link_text",
+          "severity": "medium",
+          "element_type": "link",
+          "element_number": 1,
+          "slide": 2,
+          "description": "Link 1 has vague text: 'click here'",
+          "current_state": "Link text: 'click here'",
+          "required_action": "Replace with descriptive text that explains the link's destination or purpose",
+          "wcag_criterion": "2.4.4 Link Purpose",
+          "priority": "Should Fix",
+          "estimated_time": "2-3 minutes",
+          "technical_details": {
+            "element": "<a class=\"link-issues\" href=\"#\">click here</a>...",
+            "current_text": "click here",
+            "href": "#"
+          },
+          "suggestions": [
+            "'View #'",
+            "Learn more about [topic]",
+            "Download [document type]"
+          ]
+        },
+        {
+          "type": "heading_hierarchy",
+          "severity": "medium",
+          "element_type": "heading",
+          "element_number": 1,
+          "slide": 2,
+          "description": "Heading level jumps from h0 to h2",
+          "current_state": "Heading hierarchy: h0 \u2192 h2",
+          "required_action": "Use sequential heading levels (h1, h2, h3, etc.) without skipping",
+          "wcag_criterion": "1.3.1 Info and Relationships",
+          "priority": "Should Fix",
+          "estimated_time": "1-2 minutes",
+          "technical_details": {
+            "element": "<h2>Overview of Requirements</h2>...",
+            "text": "Overview of Requirements",
+            "expected_level": "h1"
+          }
+        }
+      ],
+      "accessibility_score": 70,
+      "elements_analyzed": {
+        "images": 1,
+        "links": 2,
+        "headings": 1,
+        "tables": 0,
+        "forms": 0
+      },
+      "remediation": {
+        "automatic_fixes_applied": 3,
+        "manual_actions_remaining": 3,
+        "fixes_details": [
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "link_text",
+            "description": "Improved link text from 'click here' to 'View more information'",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "link_text",
+            "description": "Improved link text from 'more info' to 'More information'",
+            "status": "Applied Automatically"
+          }
+        ],
+        "status": "Partially Remediated"
+      }
+    },
+    {
+      "slide_number": 3,
+      "slide_title": "Implementation Timeline",
+      "content_summary": "26 words, 1 image",
+      "issues": [
+        {
+          "type": "heading_hierarchy",
+          "severity": "medium",
+          "element_type": "heading",
+          "element_number": 1,
+          "slide": 3,
+          "description": "Heading level jumps from h0 to h3",
+          "current_state": "Heading hierarchy: h0 \u2192 h3",
+          "required_action": "Use sequential heading levels (h1, h2, h3, etc.) without skipping",
+          "wcag_criterion": "1.3.1 Info and Relationships",
+          "priority": "Should Fix",
+          "estimated_time": "1-2 minutes",
+          "technical_details": {
+            "element": "<h3>Implementation Timeline</h3>...",
+            "text": "Implementation Timeline",
+            "expected_level": "h1"
+          }
+        }
+      ],
+      "accessibility_score": 90,
+      "elements_analyzed": {
+        "images": 1,
+        "links": 0,
+        "headings": 1,
+        "tables": 0,
+        "forms": 0
+      },
+      "remediation": {
+        "automatic_fixes_applied": 3,
+        "manual_actions_remaining": 1,
+        "fixes_details": [
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "link_text",
+            "description": "Improved link text from 'click here' to 'View more information'",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "link_text",
+            "description": "Improved link text from 'more info' to 'More information'",
+            "status": "Applied Automatically"
+          }
+        ],
+        "status": "Partially Remediated"
+      }
+    },
+    {
+      "slide_number": 4,
+      "slide_title": "Resources and Support",
+      "content_summary": "34 words, 1 image, 3 links",
+      "issues": [
+        {
+          "type": "vague_link_text",
+          "severity": "medium",
+          "element_type": "link",
+          "element_number": 1,
+          "slide": 4,
+          "description": "Link 1 has vague text: 'More info'",
+          "current_state": "Link text: 'More info'",
+          "required_action": "Replace with descriptive text that explains the link's destination or purpose",
+          "wcag_criterion": "2.4.4 Link Purpose",
+          "priority": "Should Fix",
+          "estimated_time": "2-3 minutes",
+          "technical_details": {
+            "element": "<a class=\"link-issues\" href=\"#\">More info</a>...",
+            "current_text": "More info",
+            "href": "#"
+          },
+          "suggestions": [
+            "'View #'",
+            "Learn more about [topic]",
+            "Download [document type]"
+          ]
+        },
+        {
+          "type": "heading_hierarchy",
+          "severity": "medium",
+          "element_type": "heading",
+          "element_number": 1,
+          "slide": 4,
+          "description": "Heading level jumps from h0 to h2",
+          "current_state": "Heading hierarchy: h0 \u2192 h2",
+          "required_action": "Use sequential heading levels (h1, h2, h3, etc.) without skipping",
+          "wcag_criterion": "1.3.1 Info and Relationships",
+          "priority": "Should Fix",
+          "estimated_time": "1-2 minutes",
+          "technical_details": {
+            "element": "<h2>Resources and Support</h2>...",
+            "text": "Resources and Support",
+            "expected_level": "h1"
+          }
+        }
+      ],
+      "accessibility_score": 80,
+      "elements_analyzed": {
+        "images": 1,
+        "links": 3,
+        "headings": 3,
+        "tables": 0,
+        "forms": 0
+      },
+      "remediation": {
+        "automatic_fixes_applied": 3,
+        "manual_actions_remaining": 2,
+        "fixes_details": [
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "link_text",
+            "description": "Improved link text from 'click here' to 'View more information'",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "link_text",
+            "description": "Improved link text from 'more info' to 'More information'",
+            "status": "Applied Automatically"
+          }
+        ],
+        "status": "Partially Remediated"
+      }
+    },
+    {
+      "slide_number": 5,
+      "slide_title": "Questions and Support",
+      "content_summary": "36 words",
+      "issues": [
+        {
+          "type": "heading_hierarchy",
+          "severity": "medium",
+          "element_type": "heading",
+          "element_number": 1,
+          "slide": 5,
+          "description": "Heading level jumps from h0 to h2",
+          "current_state": "Heading hierarchy: h0 \u2192 h2",
+          "required_action": "Use sequential heading levels (h1, h2, h3, etc.) without skipping",
+          "wcag_criterion": "1.3.1 Info and Relationships",
+          "priority": "Should Fix",
+          "estimated_time": "1-2 minutes",
+          "technical_details": {
+            "element": "<h2>Questions and Support</h2>...",
+            "text": "Questions and Support",
+            "expected_level": "h1"
+          }
+        },
+        {
+          "type": "all_caps_text",
+          "severity": "medium",
+          "element_type": "text",
+          "slide": 5,
+          "description": "1 text blocks in ALL CAPS",
+          "current_state": "1 text elements using all capital letters",
+          "required_action": "Convert to sentence case, use bold or emphasis for importance",
+          "wcag_criterion": "1.4.8 Visual Presentation",
+          "priority": "Should Fix",
+          "estimated_time": "2-3 minutes",
+          "technical_details": {
+            "count": 1,
+            "examples": [
+              "THANK YOU FOR YOUR ATTENTION TO DIGITAL ACCESSIBIL..."
+            ]
+          }
+        }
+      ],
+      "accessibility_score": 80,
+      "elements_analyzed": {
+        "images": 0,
+        "links": 0,
+        "headings": 1,
+        "tables": 0,
+        "forms": 0
+      },
+      "remediation": {
+        "automatic_fixes_applied": 3,
+        "manual_actions_remaining": 2,
+        "fixes_details": [
+          {
+            "type": "alt_text",
+            "description": "Added basic alt text: 'Image' to image",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "link_text",
+            "description": "Improved link text from 'click here' to 'View more information'",
+            "status": "Applied Automatically"
+          },
+          {
+            "type": "link_text",
+            "description": "Improved link text from 'more info' to 'More information'",
+            "status": "Applied Automatically"
+          }
+        ],
+        "status": "Partially Remediated"
+      }
+    }
+  ],
+  "remediation_summary": {
+    "automatic_fixes": [
+      {
+        "type": "alt_text",
+        "description": "Added basic alt text: 'Image' to image"
+      },
+      {
+        "type": "link_text",
+        "description": "Improved link text from 'click here' to 'View more information'"
+      },
+      {
+        "type": "link_text",
+        "description": "Improved link text from 'more info' to 'More information'"
+      }
+    ],
+    "manual_actions_needed": [
+      {
+        "issue_type": "Missing Alt Text",
+        "count": 1,
+        "slides_affected": [
+          1
+        ],
+        "priority": "Must Fix",
+        "total_estimated_time": "4 minutes",
+        "wcag_criterion": "1.1.1 Non-text Content",
+        "action_needed": "Add descriptive alt text explaining the image content and purpose",
+        "status": "Manual Review Required"
+      },
+      {
+        "issue_type": "Heading Hierarchy",
+        "count": 4,
+        "slides_affected": [
+          2,
+          3,
+          4,
+          5
+        ],
+        "priority": "Should Fix",
+        "total_estimated_time": "6 minutes",
+        "wcag_criterion": "1.3.1 Info and Relationships",
+        "action_needed": "Use sequential heading levels (h1, h2, h3, etc.) without skipping",
+        "status": "Manual Review Required"
+      },
+      {
+        "issue_type": "Vague Link Text",
+        "count": 2,
+        "slides_affected": [
+          2,
+          4
+        ],
+        "priority": "Should Fix",
+        "total_estimated_time": "5 minutes",
+        "wcag_criterion": "2.4.4 Link Purpose",
+        "action_needed": "Replace with descriptive text that explains the link's destination or purpose",
+        "status": "Manual Review Required"
+      },
+      {
+        "issue_type": "Poor Alt Text",
+        "count": 1,
+        "slides_affected": [
+          2
+        ],
+        "priority": "Should Fix",
+        "total_estimated_time": "5 minutes",
+        "wcag_criterion": "1.1.1 Non-text Content",
+        "action_needed": "Replace with descriptive alt text that explains the image's content and purpose",
+        "status": "Manual Review Required"
+      },
+      {
+        "issue_type": "All Caps Text",
+        "count": 1,
+        "slides_affected": [
+          5
+        ],
+        "priority": "Should Fix",
+        "total_estimated_time": "2 minutes",
+        "wcag_criterion": "1.4.8 Visual Presentation",
+        "action_needed": "Convert to sentence case, use bold or emphasis for importance",
+        "status": "Manual Review Required"
+      }
+    ],
+    "wcag_compliance_status": {}
+  }
+}

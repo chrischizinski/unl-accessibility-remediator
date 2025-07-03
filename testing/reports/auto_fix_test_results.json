@@ -1,0 +1,278 @@
+[
+  {
+    "original_file": "testing/sample_files/03_WildlifeGovernance.html",
+    "fixed_file": "testing/reports/fixed_files/fixed_03_WildlifeGovernance.html",
+    "fixes_applied": [
+      {
+        "type": "alt_text",
+        "description": "Added basic alt text: 'Image content' to image"
+      },
+      {
+        "type": "alt_text",
+        "description": "Added basic alt text: 'Image content' to image"
+      },
+      {
+        "type": "alt_text",
+        "description": "Added basic alt text: 'Image content' to image"
+      },
+      {
+        "type": "alt_text",
+        "description": "Added basic alt text: 'Image content' to image"
+      },
+      {
+        "type": "alt_text",
+        "description": "Added basic alt text: 'Image content' to image"
+      },
+      {
+        "type": "alt_text",
+        "description": "Added basic alt text: 'Image content' to image"
+      },
+      {
+        "type": "alt_text",
+        "description": "Added basic alt text: 'Image content' to image"
+      },
+      {
+        "type": "alt_text",
+        "description": "Added basic alt text: 'Image content' to image"
+      },
+      {
+        "type": "alt_text",
+        "description": "Added basic alt text: 'Image content' to image"
+      },
+      {
+        "type": "alt_text",
+        "description": "Added basic alt text: 'Image content' to image"
+      },
+      {
+        "type": "alt_text",
+        "description": "Added basic alt text: 'Image content' to image"
+      },
+      {
+        "type": "alt_text",
+        "description": "Added basic alt text: 'Image content' to image"
+      },
+      {
+        "type": "alt_text",
+        "description": "Added basic alt text: 'Image content' to image"
+      },
+      {
+        "type": "alt_text",
+        "description": "Added basic alt text: 'Image content' to image"
+      },
+      {
+        "type": "alt_text",
+        "description": "Added basic alt text: 'Image content' to image"
+      },
+      {
+        "type": "alt_text",
+        "description": "Added basic alt text: 'Image content' to image"
+      },
+      {
+        "type": "alt_text",
+        "description": "Added basic alt text: 'Image content' to image"
+      },
+      {
+        "type": "alt_text",
+        "description": "Added basic alt text: 'Image content' to image"
+      }
+    ],
+    "before_issues": [
+      {
+        "type": "missing_alt_text",
+        "severity": "high",
+        "element": "<img data-src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAGo4AAAtJCAYAAAClTtaxAAAACXBIWXMAAC4jAAA..."
+      },
+      {
+        "type": "missing_alt_text",
+        "severity": "high",
+        "element": "<img data-src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABNQAAAOMCAYAAACFMu6dAAAMPGlDQ1BJQ0MgUHJ..."
+      },
+      {
+        "type": "missing_alt_text",
+        "severity": "high",
+        "element": "<img data-src=\"data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAMCAgMCAgMDAwMEAwMEBQgFBQQEBQ..."
+      },
+      {
+        "type": "missing_alt_text",
+        "severity": "high",
+        "element": "<img data-src=\"data:text/html; charset=UTF-8;charset=utf-8,%3C%21DOCTYPE%20html%3E%0A%3Chtml%20lang%..."
+      },
+      {
+        "type": "missing_alt_text",
+        "severity": "high",
+        "element": "<img data-src=\"data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAYEBAUEBAYFBQUGBgYHCQ4JCQgICR..."
+      },
+      {
+        "type": "missing_alt_text",
+        "severity": "high",
+        "element": "<img data-src=\"data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD//gAfQ29tcHJlc3NlZCBieSBqcGVnLXJlY2..."
+      },
+      {
+        "type": "missing_alt_text",
+        "severity": "high",
+        "element": "<img data-src=\"data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAUDBAgICAkJCQkHCAgICAcHBwgHBw..."
+      },
+      {
+        "type": "missing_alt_text",
+        "severity": "high",
+        "element": "<img data-src=\"data:application/octet-stream;base64,/9j/4AAQSkZJRgABAQEASABIAAD/2wBDABALDA4MChAODQ4S..."
+      },
+      {
+        "type": "missing_alt_text",
+        "severity": "high",
+        "element": "<img data-src=\"data:text/html; charset=UTF-8;charset=utf-8,%3C%21DOCTYPE%20html%3E%0A%3Chtml%20lang%..."
+      },
+      {
+        "type": "missing_alt_text",
+        "severity": "high",
+        "element": "<img class=\"r-stretch quarto-figure-center\" data-src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAA..."
+      },
+      {
+        "type": "missing_alt_text",
+        "severity": "high",
+        "element": "<img data-src=\"data:image/gif;base64,R0lGODlh4AEOAff+AA4ODhBRbxVWchcVFRdPaBdbdhgZGxkZGRkeGRksNRo+Ths..."
+      },
+      {
+        "type": "missing_alt_text",
+        "severity": "high",
+        "element": "<img data-src=\"data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAASABIAAD/4QCMRXhpZgAATU0AKgAAAAgABQESAAMAAA..."
+      },
+      {
+        "type": "missing_alt_text",
+        "severity": "high",
+        "element": "<img data-src=\"data:image/webp;base64,UklGRobyAQBXRUJQVlA4IHryAQBQVgSdASqYA/QCPm0ukkYkIqIhLdvaUIANiU..."
+      },
+      {
+        "type": "missing_alt_text",
+        "severity": "high",
+        "element": "<img data-src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAmgAAANpCAYAAAC/xMVYAAAAAXNSR0IArs4c6QA..."
+      },
+      {
+        "type": "missing_alt_text",
+        "severity": "high",
+        "element": "<img data-src=\"data:image/gif;base64,R0lGODlhRgHgAfeyAAAAAAACAgEAAQEBAAEBAQIBAAICAgMDAAMDAwQEBAUFBQY..."
+      },
+      {
+        "type": "missing_alt_text",
+        "severity": "high",
+        "element": "<img data-src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAGo4AAAtJCAYAAAClTtaxAAAACXBIWXMAAC4jAAA..."
+      },
+      {
+        "type": "missing_alt_text",
+        "severity": "high",
+        "element": "<img data-src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABrIAAAQZCAYAAACJq5oVAAAAAXNSR0IArs4c6QA..."
+      },
+      {
+        "type": "missing_alt_text",
+        "severity": "high",
+        "element": "<img data-src=\"data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAYABgAAD//gA7Q1JFQVRPUjogZ2QtanBlZyB2MS4wIC..."
+      }
+    ],
+    "after_issues": [],
+    "success": true,
+    "total_fixes_applied": 18
+  },
+  {
+    "original_file": "testing/sample_files/sample_presentation.html",
+    "fixed_file": "testing/reports/fixed_files/fixed_sample_presentation.html",
+    "fixes_applied": [
+      {
+        "type": "alt_text",
+        "description": "Added basic alt text: 'Image' to image"
+      },
+      {
+        "type": "link_text",
+        "description": "Improved link text from 'click here' to 'View more information'"
+      },
+      {
+        "type": "link_text",
+        "description": "Improved link text from 'more info' to 'More information'"
+      }
+    ],
+    "before_issues": [
+      {
+        "type": "missing_alt_text",
+        "severity": "high",
+        "element": "<img src=\"data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzAwIiBoZWlnaHQ9IjIwMCIgeG1sbnM9Imh0dHA6Ly93d3cu..."
+      },
+      {
+        "type": "vague_link_text",
+        "severity": "medium",
+        "text": "click here"
+      },
+      {
+        "type": "vague_link_text",
+        "severity": "medium",
+        "text": "more info"
+      }
+    ],
+    "after_issues": [],
+    "success": true,
+    "total_fixes_applied": 3
+  },
+  {
+    "original_file": "testing/sample_files/2024-04-02-Module06.html",
+    "fixed_file": "testing/reports/fixed_files/fixed_2024-04-02-Module06.html",
+    "fixes_applied": [
+      {
+        "type": "alt_text",
+        "description": "Added basic alt text: 'Image content' to image"
+      },
+      {
+        "type": "alt_text",
+        "description": "Added basic alt text: 'Image content' to image"
+      },
+      {
+        "type": "alt_text",
+        "description": "Added basic alt text: 'Image content' to image"
+      },
+      {
+        "type": "alt_text",
+        "description": "Added basic alt text: 'Image content' to image"
+      },
+      {
+        "type": "alt_text",
+        "description": "Added basic alt text: 'Image content' to image"
+      },
+      {
+        "type": "alt_text",
+        "description": "Added basic alt text: 'Image' to image"
+      }
+    ],
+    "before_issues": [
+      {
+        "type": "missing_alt_text",
+        "severity": "high",
+        "element": "<img data-src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABB0AAAPvCAYAAACP+LYCAAAKq2lDQ1BJQ0MgUHJ..."
+      },
+      {
+        "type": "missing_alt_text",
+        "severity": "high",
+        "element": "<img data-fig.width=\"120%\" data-src=\"data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAUFBQUF..."
+      },
+      {
+        "type": "missing_alt_text",
+        "severity": "high",
+        "element": "<img data-fig.width=\"150%\" data-src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABAAAAAKrCAMAAABYy..."
+      },
+      {
+        "type": "missing_alt_text",
+        "severity": "high",
+        "element": "<img data-fig.width=\"120%\" data-src=\"data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/7QBuUGhvdG9z..."
+      },
+      {
+        "type": "missing_alt_text",
+        "severity": "high",
+        "element": "<img data-fig.width=\"120%\" data-src=\"data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/4SXpRXhpZgAA..."
+      },
+      {
+        "type": "missing_alt_text",
+        "severity": "high",
+        "element": "<img class=\"slide-logo\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA3AAAADICAYAAACpmwNSAAAAB..."
+      }
+    ],
+    "after_issues": [],
+    "success": true,
+    "total_fixes_applied": 6
+  }
+]

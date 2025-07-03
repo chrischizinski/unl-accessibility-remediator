@@ -5,7 +5,13 @@
 [![WCAG 2.1](https://img.shields.io/badge/WCAG-2.1%20AA-green.svg)](https://www.w3.org/WAI/WCAG21/quickref/)
 [![UNL](https://img.shields.io/badge/UNL-Accessibility-red.svg)](https://www.unl.edu)
 
-AI-powered WCAG 2.1 Level AA compliance tool for slide decks, designed for University of Nebraska-Lincoln faculty and staff to meet ADA Title II requirements by April 2026.
+AI-powered WCAG 2.1 Level AA compliance tool for documents and presentations, designed for University of Nebraska-Lincoln faculty and staff to meet ADA Title II requirements by April 2026.
+
+**Supported Formats:**
+- 📊 PowerPoint presentations (.pptx)
+- 📄 PDF documents (.pdf) 
+- 📝 Word documents (.docx)
+- 🌐 HTML presentations (.html)
 
 ## 📥 Quick Download
 
@@ -20,13 +26,15 @@ This tool helps UNL faculty meet the new **ADA Title II requirements** by automa
 
 ## ✨ Features
 
-- **🔍 WCAG 2.1 Level AA Analysis** - Comprehensive accessibility compliance checking
-- **🖼️ Smart Alt Text Generation** - AI-powered alternative text for images
+- **🔍 WCAG 2.1 Level AA Analysis** - Comprehensive accessibility compliance checking for all document types
+- **🖼️ Smart Alt Text Generation** - AI-powered alternative text for images (PowerPoint/HTML)
 - **🔗 Link Text Enhancement** - Improves vague links like "click here"
 - **🎨 Color Contrast Validation** - Ensures proper contrast ratios (4.5:1 for normal text, 3:1 for large text)
-- **📝 Title Optimization** - Suggests clear, descriptive slide titles
+- **📝 Document Structure Analysis** - Validates headings, titles, and navigation
 - **📊 Detailed Reports** - Actionable recommendations for accessibility improvements
 - **🔧 Automatic Fixes** - Safe improvements applied automatically when possible
+- **📄 PDF Analysis** - Detects scanned documents, missing tags, and accessibility barriers
+- **📝 Word Document Processing** - Analyzes styles, structure, and formatting issues
 
 ## 🚀 Quick Start for Colleagues
 
@@ -73,9 +81,9 @@ docker-compose up --build
 ## 🖥️ Using the Tool
 
 1. **Open the web interface** (URL shown in startup script output)
-2. **Upload your slide deck** (.pptx or .html files)
+2. **Upload your document** (.pptx, .pdf, .docx, or .html files)
 3. **Choose options**:
-   - ☑️ Apply automatic fixes (recommended)
+   - ☑️ Apply automatic fixes (recommended for Word/PowerPoint)
 4. **Click "Analyze Accessibility"**
 5. **Review the report** with specific recommendations
 6. **Download** improved files from the `./output/` directory
@@ -84,7 +92,7 @@ docker-compose up --build
 
 ```
 title_ii_compliance/
-├── input/          # Place slide decks here
+├── input/          # Place documents here
 ├── output/         # Processed files appear here
 ├── reports/        # Accessibility reports
 ├── start-accessibility-tool.sh  # One-click startup
@@ -97,7 +105,7 @@ title_ii_compliance/
 
 - **Deadline**: April 24, 2026 (UNL encourages compliance by 2025-26 academic year)
 - **Standard**: WCAG 2.1 Level AA
-- **Coverage**: All digital course materials including PowerPoint, HTML, Canvas content
+- **Coverage**: All digital course materials including PowerPoint, PDF, Word documents, HTML, Canvas content
 - **Enforcement**: Federal audits, potential fines for non-compliance
 
 ### What Gets Analyzed

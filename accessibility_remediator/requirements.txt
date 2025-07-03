@@ -8,3 +8,13 @@ python-multipart==0.0.6
 colorzero==2.0
 Pillow==10.0.1
 lxml==4.9.3
+# PDF processing
+PyPDF2==3.0.1
+pymupdf==1.23.5
+pdfplumber==0.9.0
+# Word document processing  
+python-docx==0.8.11
+# OCR for scanned documents
+pytesseract==0.3.10
+# Enhanced text analysis
+textstat==0.7.3
