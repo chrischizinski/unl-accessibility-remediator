@@ -14,7 +14,6 @@ RUN pip install --no-cache-dir -r requirements.txt
 # Copy the application code
 COPY app/ ./app/
 COPY web/ ./web/
-COPY templates/ ./templates/
 
 # Create directories for input/output
 RUN mkdir -p /app/input /app/output /app/reports
