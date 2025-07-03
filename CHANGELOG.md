@@ -5,7 +5,7 @@ All notable changes to the UNL Accessibility Remediator will be documented in th
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [Unreleased]
+## [1.0.0]
 
 ### Added
 - Initial release of UNL Accessibility Remediator
@@ -43,6 +43,29 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - ADA Title II requirements support
 - UNL-specific accessibility guidelines
 - Federal deadline preparation (April 24, 2026)
+
+---
+
+## [1.1.0] - 2025-07-03
+
+### Added
+- **PDF Support**: Accessibility analysis for `.pdf` files, including detection of missing alt text, heading structure issues, and color contrast violations.
+- **Word Document Support**: Accessibility checking for `.docx` files, including alt text validation, heading hierarchy checks, and reading order structure.
+- Expanded filetype detection to include PDFs and Word documents in batch processing.
+- Automatic alt text generation now available for PDF and Word images.
+
+### Changed
+- Updated batch processing engine to support additional MIME types.
+- Improved UI feedback and messaging when analyzing multiple file formats.
+
+### Documentation
+- Updated user guide to include instructions for PDF and Word document processing.
+- Expanded troubleshooting section for common document-specific issues.
+- Clarified compliance workflows for multi-format instructional materials.
+
+### UNL Specific
+- Aligns with faculty accessibility needs across a wider range of instructional materials.
+- Supports Title II digital accessibility requirements for PDF and DOCX formats, in preparation for the **April 24, 2026** compliance deadline.
 
 ---
 
