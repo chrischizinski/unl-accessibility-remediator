@@ -59,8 +59,8 @@ Thumbs.db
 *.log
 logs/
 
-# Port registry (personal settings)
-.claude/port-registry/
+# Claude Code settings (personal settings)
+.claude/
 
 # Temporary files
 *.bak
