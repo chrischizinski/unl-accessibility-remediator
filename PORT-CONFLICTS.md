@@ -1,118 +1,46 @@
-# 🔧 Fixing Port Conflicts
+# 🔧 Port Conflict Resolution
 
-If you see an error like:
-```
-Error response from daemon: failed to set up container networking: driver failed programming external connectivity on endpoint... Bind for 0.0.0.0:11434 failed: port is already allocated
-```
+If you encounter port conflicts, the startup script automatically handles them.
 
-This means another program is using the same network port. Here's how to fix it:
+## ✅ Automatic Resolution
 
-## 🚀 Quick Fix (Recommended)
+The `start-accessibility-tool.sh` script automatically:
+1. **Scans for available ports** starting from 8001 (web) and 11434 (Ollama)
+2. **Creates a .env file** with the found ports
+3. **Starts services** with zero conflicts
 
-### Step 1: Stop Everything
+Simply run:
 ```bash
-# Stop any running accessibility tool containers
-docker-compose down
-
-# Stop all Docker containers (if needed)
-docker stop $(docker ps -q)
-```
-
-### Step 2: Clean Up
-```bash
-# Remove any leftover containers
-docker container prune -f
-
-# Remove any leftover networks
-docker network prune -f
-```
-
-### Step 3: Restart
-```bash
-# Start the tool again
 ./start-accessibility-tool.sh
 ```
 
-## 🔍 Advanced: Check What's Using the Port
+## 🛠️ Manual Troubleshooting (Advanced Users Only)
 
-### On macOS/Linux:
+If the automatic resolution doesn't work, you can manually diagnose:
+
+### Check What's Using Ports
 ```bash
-# Check what's using port 11434 (Ollama)
-lsof -i :11434
+# Check specific ports
+lsof -i :8001 -P -n
+lsof -i :11434 -P -n
 
-# Check what's using port 8001 (Web interface)
-lsof -i :8001
+# Check Docker containers
+docker ps --format "table {{.Names}}\t{{.Ports}}\t{{.Status}}"
 ```
 
-### On Windows:
-```cmd
-# Check what's using port 11434
-netstat -ano | findstr :11434
-
-# Check what's using port 8001  
-netstat -ano | findstr :8001
-```
-
-## 🛑 If Ollama is Already Running
-
-If you have Ollama installed separately on your computer:
-
-### Option 1: Use Your Existing Ollama
-1. Stop the Docker version: `docker-compose down`
-2. Make sure your Ollama has the right models: `ollama pull llama3.1:8b`
-3. Start only the web interface:
-   ```bash
-   docker run -p 8001:8000 -v ./input:/app/input -v ./output:/app/output -v ./reports:/app/reports -e OLLAMA_HOST=http://host.docker.internal:11434 accessibility-remediator
-   ```
-
-### Option 2: Stop Your Existing Ollama
+### Manual Port Selection
+If needed, you can manually specify ports by editing the `.env` file:
 ```bash
-# Stop Ollama service
-brew services stop ollama  # macOS with Homebrew
-# or
-sudo systemctl stop ollama  # Linux
-# or
-pkill ollama  # Force stop
+echo "WEB_PORT=8002" > .env
+echo "OLLAMA_PORT=11435" >> .env
+docker-compose up -d
 ```
 
-Then restart the accessibility tool normally.
-
-## 🆘 Still Having Issues?
-
-### Nuclear Option: Reset Everything
+### Stop Conflicting Services
 ```bash
-# Stop all containers
-docker stop $(docker ps -aq)
+# Stop our previous containers
+docker-compose down
 
-# Remove all containers
-docker rm $(docker ps -aq)
-
-# Remove all networks
-docker network prune -f
-
-# Remove all volumes (WARNING: This removes all Docker data)
-docker volume prune -f
-
-# Restart Docker Desktop
-# Then try starting the tool again
+# Or stop specific containers if you know what they are
+docker stop <container_name>
 ```
-
-### Alternative Ports
-If ports 8001 and 11434 are permanently occupied, you can manually edit `docker-compose.yml` to use different ports:
-
-```yaml
-services:
-  ollama:
-    ports:
-      - "11435:11434"  # Changed from 11434 to 11435
-  
-  accessibility-remediator:
-    ports:
-      - "8002:8000"    # Changed from 8001 to 8002
-```
-
-Then access the tool at `http://localhost:8002` instead.
-
----
-
-**Need more help?** Create an issue on GitHub with the exact error message you're seeing.

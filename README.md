@@ -39,34 +39,31 @@ This tool helps UNL faculty meet the new **ADA Title II requirements** by automa
 
 ## 🚀 Quick Start for Colleagues
 
-### Option 1: One-Click Startup (Recommended)
+### ⚡ One-Button Solution (Recommended)
 
 ```bash
-# Clone or download this project
-git clone [repository-url]
-cd title_ii_compliance
-
-# Run the automated setup script
+# Clone or download this project, then run:
 ./start-accessibility-tool.sh
 ```
 
-The script will:
-- ✅ Check that Docker is installed and running
-- 🔍 Automatically find available ports (no conflicts!)
-- 🚀 Start all services with proper configuration
-- 🌐 Open the web interface at the correct URL
+**That's it!** The script automatically:
+- ✅ Checks prerequisites (Docker)
+- ✅ Finds available ports (handles conflicts automatically)  
+- ✅ Starts the accessibility tool
+- ✅ Opens your browser to the web interface
 
-### Option 2: Manual Docker Setup
+**Zero configuration needed** - just run the script and start using the tool.
+
+### Alternative: Manual Docker Setup
 
 If you prefer manual control:
 
 ```bash
 # Build and start services
 docker-compose up --build
-
-# If you get port conflicts, edit docker-compose.yml to use different ports
-# Then try again
 ```
+
+**Note**: The one-button script handles port conflicts automatically. Manual setup may require editing ports if conflicts occur.
 
 ## 📋 Requirements
 

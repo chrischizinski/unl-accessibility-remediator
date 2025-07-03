@@ -23,19 +23,27 @@ command_exists() {
     command -v "$1" >/dev/null 2>&1
 }
 
-# Function to find available port
+# Function to find available port with systematic checking
 find_available_port() {
     local start_port=$1
     local max_attempts=${2:-20}
     
+    # Check if lsof is available
+    if ! command_exists lsof; then
+        echo -e "${RED}❌ 'lsof' command not found. Please install it to check for available ports.${NC}"
+        exit 1
+    fi
+    
     for ((port=start_port; port<start_port+max_attempts; port++)); do
-        if ! nc -z localhost $port 2>/dev/null; then
+        # Use lsof for more reliable port checking
+        if ! lsof -i :$port >/dev/null 2>&1; then
             echo $port
             return 0
         fi
     done
     return 1
 }
+
 
 # Check prerequisites
 echo -e "${YELLOW}📋 Checking prerequisites...${NC}"
@@ -66,11 +74,11 @@ echo -e "${GREEN}✅ Docker is running${NC}"
 # Find available ports
 echo -e "${YELLOW}🔍 Finding available ports...${NC}"
 
-WEB_PORT=$(find_available_port 8000)
+WEB_PORT=$(find_available_port 8001)
 OLLAMA_PORT=$(find_available_port 11434)
 
 if [ -z "$WEB_PORT" ]; then
-    echo -e "${RED}❌ Could not find available web port in range 8000-8019${NC}"
+    echo -e "${RED}❌ Could not find available web port in range 8001-8020${NC}"
     echo "Please stop other web services and try again"
     exit 1
 fi
@@ -83,39 +91,10 @@ fi
 
 echo -e "${GREEN}✅ Using ports: Web=$WEB_PORT, Ollama=$OLLAMA_PORT${NC}"
 
-# Create dynamic docker-compose file
+# Create .env file for docker-compose
 echo -e "${YELLOW}⚙️  Configuring services...${NC}"
-
-cat > docker-compose.dynamic.yml << EOF
-version: '3.8'
-
-services:
-  accessibility-remediator:
-    build: ./accessibility_remediator
-    ports:
-      - "${WEB_PORT}:8000"
-    volumes:
-      - ./input:/app/input
-      - ./output:/app/output  
-      - ./reports:/app/reports
-    environment:
-      - OLLAMA_HOST=ollama:${OLLAMA_PORT}
-    depends_on:
-      - ollama
-    command: ["python", "web/server.py"]
-
-  ollama:
-    image: ollama/ollama:latest
-    ports:
-      - "${OLLAMA_PORT}:11434"
-    volumes:
-      - ollama_data:/root/.ollama
-    environment:
-      - OLLAMA_MODELS=/root/.ollama/models
-
-volumes:
-  ollama_data:
-EOF
+echo "WEB_PORT=${WEB_PORT}" > .env
+echo "OLLAMA_PORT=${OLLAMA_PORT}" >> .env
 
 # Create input/output directories
 mkdir -p input output reports
@@ -126,7 +105,7 @@ echo -e "${GREEN}✅ Configuration complete${NC}"
 echo -e "${YELLOW}🚀 Starting services...${NC}"
 echo "This may take a few minutes on first run (downloading images)"
 
-docker-compose -f docker-compose.dynamic.yml up --build -d
+docker-compose up --build -d
 
 # Wait for services to be ready
 echo -e "${YELLOW}⏳ Waiting for services to start...${NC}"
@@ -152,7 +131,7 @@ echo "3. Review the accessibility analysis and recommendations"
 echo "4. Download the improved files and reports"
 echo ""
 echo -e "${YELLOW}⚙️  To stop the services:${NC}"
-echo "   docker-compose -f docker-compose.dynamic.yml down"
+echo "   docker-compose down"
 echo ""
 echo -e "${YELLOW}📂 File locations:${NC}"
 echo "   • Input files: ./input/"
@@ -162,4 +141,4 @@ echo ""
 echo -e "${BLUE}Press Ctrl+C to view logs, or close this terminal when done${NC}"
 
 # Show logs
-docker-compose -f docker-compose.dynamic.yml logs -f
+docker-compose logs -f
