@@ -25,7 +25,7 @@
 1. **Open** the folder where you extracted the tool
 2. **Double-click** on one of these files:
    - **Windows**: `START-HERE-WINDOWS.bat`
-   - **Mac**: `START-HERE-MAC.command`
+   - **Mac**: `START-HERE-MAC.command` *(If you see a security warning, see `MACOS-SECURITY.md`)*
    - **Linux**: `START-HERE-LINUX.sh`
 
 3. **Wait** for the tool to start (may take 2-3 minutes first time)
