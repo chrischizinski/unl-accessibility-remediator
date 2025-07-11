@@ -124,9 +124,16 @@ title_ii_compliance/
 └── docker-compose.yml          # Manual Docker config
 ```
 
-### 🔒 **Privacy & File Safety**
+### 🔒 **Security & Privacy**
 
-**Your data stays completely private and secure:**
+**Enterprise-grade security with complete data privacy:**
+
+#### Security Features
+- **🛡️ Security Audited**: Recently patched all critical vulnerabilities (Dec 2024)
+- **🔐 Localhost Protection**: Admin functions restricted to local access only
+- **📁 Path Protection**: File uploads sanitized to prevent directory traversal
+- **⚡ Input Validation**: All user inputs validated and sanitized
+- **🐳 Container Security**: Docker images pinned to specific, tested versions
 
 #### Privacy Protection
 - **🏠 100% Local Processing**: All AI analysis happens on your computer

@@ -78,7 +78,13 @@ Once the tool is running:
 7. **Review** the detailed report
 8. **Download** improved files if automatic fixes were applied
 
-## 🔒 **Privacy & File Safety**
+## 🔒 **Security & Privacy Protection**
+
+### Security Features
+- **🛡️ Security Audited**: All critical vulnerabilities patched (December 2024)
+- **🔐 Admin Protection**: Administrative functions secured to localhost only
+- **📁 File Protection**: Upload paths validated to prevent unauthorized access
+- **⚡ Input Sanitized**: All user inputs properly validated and escaped
 
 ### Your Data Stays Private
 - **🏠 100% Local Processing**: All AI analysis happens on your computer
