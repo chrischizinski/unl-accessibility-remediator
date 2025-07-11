@@ -80,6 +80,22 @@ docker-compose up --build
 
 ### Installing Docker
 
+#### 🏢 **University-Owned Computers**
+**Cannot install Docker yourself?** Most UNL faculty computers are university-managed and require IT assistance:
+
+1. **Submit IT Request**: Use the [UNL IT Service Portal](https://unl.teamdynamix.com/TDClient/1946/Portal/Home/)
+2. **Use our template**: See `IT-REQUEST-GUIDE.md` for complete copy-paste request
+3. **Essential points**: Docker Desktop for ADA compliance, April 2026 deadline
+4. **Reference**: Independent UNL Accessibility Remediator tool
+5. **Include**: This GitHub repository link
+
+**Alternative Options:**
+- Use personal laptop if permitted for work
+- Access lab computers with admin privileges
+- Collaborate with colleagues who have Docker
+
+#### 💻 **Personal Computers (Admin Required)**
+
 **Option 1: Docker Desktop**
 1. **Windows/Mac**: Download from [docker.com/products/docker-desktop](https://www.docker.com/products/docker-desktop)
 2. **Linux**: Follow [docs.docker.com/desktop/install](https://docs.docker.com/desktop/install/)

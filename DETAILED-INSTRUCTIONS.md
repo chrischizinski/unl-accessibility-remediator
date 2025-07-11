@@ -69,7 +69,29 @@
 
 ### Docker Desktop Installation
 
-#### Windows
+#### 🚨 **Important for UNL Faculty**
+**University-owned computers have restricted admin access.** You cannot install Docker yourself on most UNL-managed machines.
+
+**Required Steps for University Computers:**
+1. **Submit IT Service Request**: Go to [UNL IT Service Portal](https://unl.teamdynamix.com/TDClient/1946/Portal/Home/)
+2. **Request Type**: Software Installation
+3. **Software**: Docker Desktop
+4. **Business Justification**: 
+   ```
+   "Requesting Docker Desktop installation for ADA Title II accessibility 
+   compliance tool. Required to meet federal accessibility deadline of 
+   April 2026. Tool: UNL Accessibility Remediator (independent faculty tool)
+   GitHub: https://github.com/chrischizinski/unl-accessibility-remediator"
+   ```
+5. **Wait for approval** and IT installation (may take 1-2 weeks)
+
+**Alternatives if IT request is denied:**
+- **Personal laptop**: Use your own device if work policies permit
+- **Collaboration**: Partner with colleague who has Docker access
+- **Lab computers**: Use department computers with admin privileges
+- **Manual analysis**: Use online accessibility checkers as interim solution
+
+#### Windows (Personal/Admin Access)
 1. **Download**: Docker Desktop for Windows
 2. **Run** the installer as Administrator
 3. **Follow** the installation wizard
@@ -77,7 +99,7 @@
 5. **Start** Docker Desktop from Start Menu
 6. **Accept** license terms and complete setup
 
-#### Mac
+#### Mac (Personal/Admin Access)
 1. **Download**: Docker Desktop for Mac (Intel or Apple Silicon)
 2. **Drag** Docker.app to Applications folder
 3. **Launch** Docker Desktop from Applications
@@ -255,10 +277,29 @@ Each accessibility report includes:
 
 #### "Docker is not installed"
 **Problem**: System can't find Docker
-**Solution**: 
+
+**Solution for University Computers**: 
+1. **Check if IT approved**: Docker may need official installation
+2. **Submit IT request**: Follow the detailed steps in the installation section above
+3. **Use alternatives**: Personal laptop, lab computers, or collaboration
+
+**Solution for Personal Computers**: 
 1. Install Docker Desktop from docker.com
 2. Restart computer after installation
 3. Try again
+
+#### "IT Request for Docker Denied"
+**Problem**: University IT denied Docker installation request
+
+**Alternative Solutions**:
+1. **Personal Device**: Use your laptop if work policies permit
+2. **Lab Access**: Check department computers with admin rights
+3. **Collaboration**: Partner with a colleague who has Docker
+4. **Manual Process**: Use interim accessibility checking methods:
+   - [WAVE Web Accessibility Evaluator](https://wave.webaim.org/)
+   - [Accessibility Insights](https://accessibilityinsights.io/)
+   - Built-in PowerPoint accessibility checker
+   - Manual WCAG 2.1 compliance review
 
 #### "Docker is not running"  
 **Problem**: Docker Desktop isn't started

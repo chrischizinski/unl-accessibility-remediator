@@ -7,6 +7,24 @@
 ## 📦 What You Need (One-Time Setup)
 
 ### Step 1: Install Docker Desktop
+
+#### 🏢 **For University-Owned Computers** (Most UNL Faculty)
+**You cannot install Docker yourself on university-managed computers.** Instead:
+
+1. **Submit an IT Request** through the [UNL IT Service Portal](https://unl.teamdynamix.com/TDClient/1946/Portal/Home/)
+2. **Use our template**: See `IT-REQUEST-GUIDE.md` for a complete copy-paste request template
+3. **Key points to mention**:
+   - "Docker Desktop installation for accessibility compliance tool"
+   - "Needed for ADA Title II compliance by April 2026 deadline"
+   - "Independent UNL Accessibility Remediator tool"
+   - Include this GitHub repository link
+
+**Alternative Options:**
+- **Personal laptop**: Install on your own device if allowed for work
+- **Lab computers**: Use computers with admin privileges if available
+- **Collaborate**: Work with a colleague who has Docker installed
+
+#### 💻 **For Personal Computers** (Admin Access Required)
 1. **Go to**: [docker.com/products/docker-desktop](https://docker.com/products/docker-desktop)
 2. **Click**: "Download Docker Desktop"
 3. **Choose**: Your operating system (Windows, Mac, or Linux)
