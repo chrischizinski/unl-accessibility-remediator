@@ -5,6 +5,45 @@ All notable changes to the UNL Accessibility Remediator will be documented in th
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.0.0] - 2024-12-11
+
+### 🔒 SECURITY (CRITICAL)
+- **FIXED**: All critical and high-severity vulnerabilities patched
+- **ADDED**: Localhost-only access control for admin endpoints
+- **FIXED**: Path traversal vulnerability in file uploads
+- **FIXED**: Command injection prevention in subprocess calls
+- **FIXED**: Cross-site scripting (XSS) protection with HTML escaping
+- **IMPROVED**: Docker image security with version pinning
+- **ENHANCED**: Error message sanitization to prevent information disclosure
+
+### 🚀 MAJOR IMPROVEMENTS
+- **IMPROVED**: Complete web interface overhaul - no more CLI instructions!
+- **ADDED**: Seamless PowerPoint and HTML processing through web interface
+- **ADDED**: Professional error handling and user feedback
+- **ADDED**: Reports dashboard for viewing analysis history
+- **REMOVED**: All placeholder implementations and CLI references
+
+### 🏢 UNIVERSITY SUPPORT
+- **ADDED**: `IT-REQUEST-GUIDE.md` - Complete templates for university IT requests
+- **ADDED**: `SECURITY.md` - Comprehensive security policy and audit results
+- **IMPROVED**: Documentation for university-managed computers
+- **ADDED**: Alternative approaches for restricted environments
+- **ENHANCED**: Professional support and troubleshooting guides
+
+### 📚 DOCUMENTATION
+- **UPDATED**: All setup guides reflect new web interface approach
+- **IMPROVED**: README.md with enterprise security features
+- **ENHANCED**: SIMPLE-SETUP.md with security assurances
+- **ADDED**: Comprehensive IT approval documentation
+- **IMPROVED**: University deployment and troubleshooting guides
+
+### 🔧 TECHNICAL
+- **FIXED**: PowerPoint processing now works seamlessly through web interface
+- **IMPROVED**: File upload validation and sanitization
+- **ENHANCED**: Container security and deployment practices
+- **ADDED**: Comprehensive input validation throughout application
+- **IMPROVED**: Professional user interface with proper success/error states
+
 ## [1.0.0]
 
 ### Added
