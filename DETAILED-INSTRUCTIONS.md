@@ -309,7 +309,7 @@ Each accessibility report includes:
 ### Getting Help
 
 **For UNL Faculty/Staff:**
-1. **IT Help Desk**: For Docker installation issues
+1. **Docker Installation**: See [docs.docker.com/support](https://docs.docker.com/support) for help
 2. **Center for Transformative Teaching**: For accessibility questions
 3. **Digital Accessibility Training**: Available in Bridge
 
@@ -486,8 +486,8 @@ docker-compose exec accessibility-remediator python main.py input/file.pptx --mo
 ## 📞 Contact and Support
 
 **Technical Issues:**
-- IT Help Desk: [contact information]
-- Docker Support: docs.docker.com/support
+- Docker Support: [docs.docker.com/support](https://docs.docker.com/support)
+- Tool Issues: See GitHub Issues in the repository
 
 **Accessibility Questions:**
 - Center for Transformative Teaching

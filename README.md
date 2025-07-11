@@ -179,7 +179,7 @@ kill -9 [PID]
 ### UNL Faculty Resources
 - **UNL Digital Accessibility Training**: Available in Bridge
 - **Center for Transformative Teaching**: Accessibility resources
-- **IT Help Desk**: For Docker installation issues
+- **Docker Support**: See [docs.docker.com/support](https://docs.docker.com/support) for installation help
 
 ### Technical Support
 - **Quick Fixes**: Check Docker Desktop status and restart if needed
@@ -188,12 +188,14 @@ kill -9 [PID]
 
 ## 🏛️ University Branding
 
-This tool follows UNL's official brand guidelines with:
+This tool uses UNL's brand colors for familiarity:
 - Scarlet (#d00000) and Cream (#f5f1e7) color scheme
-- Official typography and styling
+- Clean typography and styling
 - Professional, accessible interface design
 
 ---
 
+**Disclaimer**: This is an independent tool created by a UNL faculty member to help colleagues meet accessibility requirements. It is not officially endorsed or supported by the University of Nebraska–Lincoln.
+
 **University of Nebraska–Lincoln**  
-*Center for Transformative Teaching | Digital Accessibility Initiative*
+*Supporting Faculty in Digital Accessibility Compliance*

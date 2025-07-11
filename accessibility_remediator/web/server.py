@@ -541,7 +541,7 @@ async def home():
         </div>
         
         <div class="footer">
-            <p>University of Nebraska–Lincoln | Center for Transformative Teaching | Digital Accessibility Initiative</p>
+            <p>University of Nebraska–Lincoln | Independent Faculty Tool for Digital Accessibility</p>
         </div>
         
         <script>
@@ -672,7 +672,7 @@ async def upload_file(
             </div>
             
             <div class="footer">
-                <p>University of Nebraska–Lincoln | Digital Accessibility Compliance Tool</p>
+                <p>University of Nebraska–Lincoln | Independent Faculty Tool for Digital Accessibility</p>
             </div>
         </body>
         </html>
@@ -844,7 +844,7 @@ async def upload_multiple_files(
         </div>
         
         <div class="footer">
-            <p>University of Nebraska–Lincoln | Digital Accessibility Compliance Tool</p>
+            <p>University of Nebraska–Lincoln | Independent Faculty Tool for Digital Accessibility</p>
         </div>
     </body>
     </html>
@@ -970,7 +970,7 @@ async def upload_folder(
         </div>
         
         <div class="footer">
-            <p>University of Nebraska–Lincoln | Digital Accessibility Compliance Tool</p>
+            <p>University of Nebraska–Lincoln | Independent Faculty Tool for Digital Accessibility</p>
         </div>
     </body>
     </html>
@@ -1115,7 +1115,7 @@ async def admin_panel():
         </div>
         
         <div class="footer">
-            <p>University of Nebraska–Lincoln | Digital Accessibility Compliance Tool</p>
+            <p>University of Nebraska–Lincoln | Independent Faculty Tool for Digital Accessibility</p>
         </div>
     </body>
     </html>

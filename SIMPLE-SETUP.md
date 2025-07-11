@@ -2,6 +2,8 @@
 
 **For non-technical users who want to analyze slide decks for accessibility**
 
+> **Note**: This is an independent tool created by a UNL faculty member to help colleagues meet accessibility requirements. It is not officially endorsed by the University.
+
 ## 📦 What You Need (One-Time Setup)
 
 ### Step 1: Install Docker Desktop
@@ -109,7 +111,10 @@ After processing:
 **For UNL Faculty:**
 - Digital Accessibility Training in Bridge
 - Center for Transformative Teaching resources
-- IT Help Desk for Docker installation issues
+
+**For Technical Issues:**
+- **Docker Problems**: See [docs.docker.com/support](https://docs.docker.com/support)
+- **Tool Problems**: See `REPORTING-ISSUES.md` for how to report issues
 
 **Before asking for help:**
 - Make sure Docker Desktop is installed and running

@@ -82,9 +82,12 @@ This helps us prioritize fixes that affect our primary users!
 ## 📞 Other Ways to Get Help
 
 **For UNL Faculty:**
-- **IT Help Desk**: For Docker installation problems
 - **Digital Accessibility Training**: Available in Bridge
 - **Center for Transformative Teaching**: General accessibility guidance
+
+**For Technical Problems:**
+- **Docker Installation**: See [docs.docker.com/support](https://docs.docker.com/support)
+- **Tool Issues**: Use the GitHub issues link above
 
 **For Technical Users:**
 - Check `DETAILED-INSTRUCTIONS.md` for advanced troubleshooting
