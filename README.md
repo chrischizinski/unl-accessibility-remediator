@@ -72,14 +72,18 @@ docker-compose up --build
 
 ## 📋 Requirements
 
-- **Docker Desktop** (includes Docker Compose)
+- **Docker Desktop** or **OrbStack** (includes Docker Compose)
 - **8GB+ RAM** recommended for AI processing
 - **Internet connection** for initial setup
 
-### Installing Docker Desktop
+### Installing Docker
 
+**Option 1: Docker Desktop**
 1. **Windows/Mac**: Download from [docker.com/products/docker-desktop](https://www.docker.com/products/docker-desktop)
 2. **Linux**: Follow [docs.docker.com/desktop/install](https://docs.docker.com/desktop/install/)
+
+**Option 2: OrbStack (macOS alternative)**
+1. **macOS**: Download from [orbstack.dev](https://orbstack.dev) - Faster, lighter alternative to Docker Desktop
 
 ## 🖥️ Using the Tool
 
@@ -134,7 +138,8 @@ kill -9 [PID]
 
 ### Docker Issues
 ```bash
-# Restart Docker Desktop
+# For Docker Desktop: Restart Docker Desktop application
+# For OrbStack: Restart OrbStack application
 # Then try again with:
 ./start-accessibility-tool.sh
 ```
@@ -146,9 +151,18 @@ kill -9 [PID]
 
 ## 📞 Support
 
+### 🐛 Having Problems?
+**→ [Report a Bug or Issue](REPORTING-ISSUES.md)** ← Simple guide for non-technical users!
+
+### UNL Faculty Resources
 - **UNL Digital Accessibility Training**: Available in Bridge
 - **Center for Transformative Teaching**: Accessibility resources
-- **Technical Issues**: Check Docker Desktop status and restart if needed
+- **IT Help Desk**: For Docker installation issues
+
+### Technical Support
+- **Quick Fixes**: Check Docker Desktop status and restart if needed
+- **Detailed Guide**: See `DETAILED-INSTRUCTIONS.md` for advanced troubleshooting
+- **GitHub Issues**: [Report technical bugs](https://github.com/chrischizinski/unl-accessibility-remediator/issues)
 
 ## 🏛️ University Branding
 

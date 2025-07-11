@@ -1,10 +1,8 @@
 #!/bin/bash
-"""
-UNL Accessibility Remediator - Colleague-Friendly Startup Script
-
-This script automatically handles port conflicts and provides clear instructions
-for colleagues who want to use the tool.
-"""
+# UNL Accessibility Remediator - Colleague-Friendly Startup Script
+#
+# This script automatically handles port conflicts and provides clear instructions
+# for colleagues who want to use the tool.
 
 set -e  # Exit on any error
 
@@ -50,7 +48,9 @@ echo -e "${YELLOW}📋 Checking prerequisites...${NC}"
 
 if ! command_exists docker; then
     echo -e "${RED}❌ Docker is not installed${NC}"
-    echo "Please install Docker Desktop from: https://www.docker.com/products/docker-desktop"
+    echo "Please install Docker Desktop or OrbStack from:"
+    echo "  - Docker Desktop: https://www.docker.com/products/docker-desktop"
+    echo "  - OrbStack: https://orbstack.dev"
     exit 1
 fi
 
@@ -65,7 +65,9 @@ echo -e "${GREEN}✅ Docker and Docker Compose are available${NC}"
 # Check if Docker is running
 if ! docker info >/dev/null 2>&1; then
     echo -e "${RED}❌ Docker is not running${NC}"
-    echo "Please start Docker Desktop and try again"
+    echo "Please start your Docker service:"
+    echo "  - Docker Desktop: Start Docker Desktop application"
+    echo "  - OrbStack: Start OrbStack application"
     exit 1
 fi
 
