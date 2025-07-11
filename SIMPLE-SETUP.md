@@ -27,6 +27,8 @@
    - **Windows**: `start-accessibility-tool.bat`
    - **Mac/Linux**: `start-accessibility-tool.sh` *(If you see a security warning on Mac, see `MACOS-SECURITY.md`)*
 
+   **Note**: The script automatically finds its location, so you can run it from anywhere!
+
 3. **Wait** for the tool to start (may take 2-3 minutes first time)
 4. **Your browser opens automatically** to the tool interface
 5. **Start uploading files** for accessibility analysis!

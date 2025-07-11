@@ -2,6 +2,9 @@
 REM UNL Accessibility Remediator - Windows Startup Script
 REM This script automatically handles port conflicts on Windows
 
+REM Change to the directory where this script is located
+cd /d "%~dp0"
+
 echo 🎯 UNL Accessibility Remediator Setup
 echo ===============================================
 
