@@ -20,35 +20,22 @@
 
 ## 🚀 Using the Tool (Every Time)
 
-### Method 1: Double-Click Setup (Easiest)
+### ⚡ One-Button Setup (Easiest)
 
 1. **Open** the folder where you extracted the tool
 2. **Double-click** on one of these files:
-   - **Windows**: `START-HERE-WINDOWS.bat`
-   - **Mac**: `START-HERE-MAC.command` *(If you see a security warning, see `MACOS-SECURITY.md`)*
-   - **Linux**: `START-HERE-LINUX.sh`
+   - **Windows**: `start-accessibility-tool.bat`
+   - **Mac/Linux**: `start-accessibility-tool.sh` *(If you see a security warning on Mac, see `MACOS-SECURITY.md`)*
 
 3. **Wait** for the tool to start (may take 2-3 minutes first time)
-4. **Look for** a message like: "🌐 Open: http://localhost:8003"
-5. **Click** that link or copy it to your web browser
+4. **Your browser opens automatically** to the tool interface
+5. **Start uploading files** for accessibility analysis!
 
-### Method 2: Using Applications Menu
-
-**On Windows:**
-1. Open "Command Prompt" from Start Menu
-2. Type: `cd ` (with a space after cd)
-3. Drag the accessibility tool folder into the window
-4. Press Enter
-5. Type: `start-tool.bat`
-6. Press Enter
-
-**On Mac:**
-1. Open "Terminal" from Applications → Utilities
-2. Type: `cd ` (with a space after cd)  
-3. Drag the accessibility tool folder into the window
-4. Press Enter
-5. Type: `./start-tool.sh`
-6. Press Enter
+**The script automatically:**
+- ✅ Checks that Docker is running
+- ✅ Finds available ports (no conflicts!)
+- ✅ Starts the accessibility tool
+- ✅ Opens your web browser
 
 ## 📁 Using the Web Interface
 

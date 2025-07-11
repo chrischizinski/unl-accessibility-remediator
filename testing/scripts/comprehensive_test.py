@@ -134,10 +134,8 @@ class AccessibilityToolTester:
         
         # Check required files
         required_files = [
-            "START-HERE-WINDOWS.bat",
-            "START-HERE-MAC.command", 
-            "START-HERE-LINUX.sh",
             "start-accessibility-tool.sh",
+            "start-accessibility-tool.bat",
             "docker-compose.yml",
             "accessibility_remediator/Dockerfile"
         ]
@@ -160,9 +158,7 @@ class AccessibilityToolTester:
         details = []
         
         scripts = {
-            "start-accessibility-tool.sh": ["bash", "-n"],
-            "START-HERE-LINUX.sh": ["bash", "-n"],
-            "START-HERE-MAC.command": ["bash", "-n"]
+            "start-accessibility-tool.sh": ["bash", "-n"]
         }
         
         for script, check_cmd in scripts.items():
@@ -185,14 +181,14 @@ class AccessibilityToolTester:
                 details.append(f"⚠️ {script} not found")
         
         # Check Windows batch file (basic validation)
-        windows_script = self.base_dir / "START-HERE-WINDOWS.bat"
+        windows_script = self.base_dir / "start-accessibility-tool.bat"
         if windows_script.exists():
             with open(windows_script, 'r') as f:
                 content = f.read()
                 if 'docker' in content and 'docker-compose' in content:
-                    details.append("✅ START-HERE-WINDOWS.bat contains expected commands")
+                    details.append("✅ start-accessibility-tool.bat contains expected commands")
                 else:
-                    details.append("❌ START-HERE-WINDOWS.bat missing required commands")
+                    details.append("❌ start-accessibility-tool.bat missing required commands")
         
         return {
             "passed": True,

@@ -46,9 +46,7 @@ def test_prerequisites():
         "accessibility_remediator/Dockerfile",
         "docker-compose.yml", 
         "start-accessibility-tool.sh",
-        "START-HERE-WINDOWS.bat",
-        "START-HERE-MAC.command",
-        "START-HERE-LINUX.sh"
+        "start-accessibility-tool.bat"
     ]
     
     missing_files = []
@@ -95,9 +93,7 @@ def test_script_syntax():
     print("\n📝 Testing script syntax...")
     
     scripts = {
-        "start-accessibility-tool.sh": ["bash", "-n"],
-        "START-HERE-LINUX.sh": ["bash", "-n"], 
-        "START-HERE-MAC.command": ["bash", "-n"]
+        "start-accessibility-tool.sh": ["bash", "-n"]
     }
     
     all_passed = True
