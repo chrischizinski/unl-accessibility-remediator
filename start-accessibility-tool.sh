@@ -19,9 +19,28 @@ NC='\033[0m' # No Color
 echo -e "${BLUE}🎯 UNL Accessibility Remediator Setup${NC}"
 echo "==============================================="
 
-# Function to check if command exists
+# Function to check if command exists, checking common locations
 command_exists() {
-    command -v "$1" >/dev/null 2>&1
+    # First try the standard command lookup
+    if command -v "$1" >/dev/null 2>&1; then
+        return 0
+    fi
+    
+    # For Docker/docker-compose, check common installation paths
+    if [ "$1" = "docker" ] || [ "$1" = "docker-compose" ]; then
+        for path in /usr/local/bin/$1 /opt/homebrew/bin/$1 /usr/bin/$1; do
+            if [ -x "$path" ]; then
+                # Add the directory to PATH if not already there
+                dir=$(dirname "$path")
+                if [[ ":$PATH:" != *":$dir:"* ]]; then
+                    export PATH="$dir:$PATH"
+                fi
+                return 0
+            fi
+        done
+    fi
+    
+    return 1
 }
 
 # Function to find available port with systematic checking
@@ -57,9 +76,9 @@ if ! command_exists docker; then
     exit 1
 fi
 
-if ! command_exists docker-compose; then
+if ! command_exists docker-compose && ! docker compose version >/dev/null 2>&1; then
     echo -e "${RED}❌ Docker Compose is not installed${NC}"
-    echo "Please install Docker Compose or use Docker Desktop which includes it"
+    echo "Please install Docker Compose or use Docker Desktop/OrbStack which includes it"
     exit 1
 fi
 
@@ -110,7 +129,12 @@ echo -e "${GREEN}✅ Configuration complete${NC}"
 echo -e "${YELLOW}🚀 Starting services...${NC}"
 echo "This may take a few minutes on first run (downloading images)"
 
-docker-compose up --build -d
+# Use modern docker compose command if available, fallback to docker-compose
+if docker compose version >/dev/null 2>&1; then
+    docker compose up --build -d
+else
+    docker-compose up --build -d
+fi
 
 # Wait for services to be ready
 echo -e "${YELLOW}⏳ Waiting for services to start...${NC}"
@@ -136,7 +160,11 @@ echo "3. Review the accessibility analysis and recommendations"
 echo "4. Download the improved files and reports"
 echo ""
 echo -e "${YELLOW}⚙️  To stop the services:${NC}"
-echo "   docker-compose down"
+if docker compose version >/dev/null 2>&1; then
+    echo "   docker compose down"
+else
+    echo "   docker-compose down"
+fi
 echo ""
 echo -e "${YELLOW}📂 File locations:${NC}"
 echo "   • Input files: ./input/"
@@ -146,4 +174,8 @@ echo ""
 echo -e "${BLUE}Press Ctrl+C to view logs, or close this terminal when done${NC}"
 
 # Show logs
-docker-compose logs -f
+if docker compose version >/dev/null 2>&1; then
+    docker compose logs -f
+else
+    docker-compose logs -f
+fi
