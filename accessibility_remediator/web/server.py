@@ -526,6 +526,17 @@ async def home():
                         <li>Automated fixes save time and effort</li>
                     </ul>
                 </div>
+                
+                <div style="margin-top: 2rem;">
+                    <h4 style="color: var(--unl-navy); margin-bottom: 1rem;">🔒 Privacy & Safety:</h4>
+                    <ul>
+                        <li>100% local processing - your documents never leave your computer</li>
+                        <li>Complete data privacy - no external servers access your content</li>
+                        <li>File safety - all documents and reports saved permanently</li>
+                        <li>Restart safe - closing the tool won't delete your work</li>
+                        <li>Backup friendly - copy the tool folder to save everything</li>
+                    </ul>
+                </div>
             </div>
         </div>
         

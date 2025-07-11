@@ -108,6 +108,26 @@ title_ii_compliance/
 └── docker-compose.yml          # Manual Docker config
 ```
 
+### 🔒 **Privacy & File Safety**
+
+**Your data stays completely private and secure:**
+
+#### Privacy Protection
+- **🏠 100% Local Processing**: All AI analysis happens on your computer
+- **🚫 No Internet Upload**: Your documents never leave your machine  
+- **🔐 Complete Control**: You control all your materials and data
+- **🛡️ Privacy Protected**: No external servers can access your content
+
+#### File Safety
+- **📁 Input files**: Stored in `./input/` folder - never deleted
+- **📊 Processed files**: Saved to `./output/` folder - yours to keep forever
+- **📋 Reports**: Saved to `./reports/` folder - review anytime
+- **🔄 Restart safe**: Closing/restarting the tool won't delete anything
+- **💾 Backup friendly**: Copy the entire folder to backup all your work
+- **🚀 Portable**: Move the folder to any computer and continue working
+
+**Even if you uninstall Docker, your files remain safely in these folders!**
+
 ## 🎓 UNL Compliance Information
 
 ### Legal Requirements

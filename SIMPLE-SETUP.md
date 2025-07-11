@@ -58,6 +58,24 @@ Once the tool is running:
 7. **Review** the detailed report
 8. **Download** improved files if automatic fixes were applied
 
+## 🔒 **Privacy & File Safety**
+
+### Your Data Stays Private
+- **🏠 100% Local Processing**: All AI analysis happens on your computer
+- **🚫 No Internet Upload**: Your documents never leave your machine
+- **🔐 Complete Control**: You control all your materials and data
+- **🛡️ Privacy Protected**: No external servers can access your content
+
+### Your Files Are Safe
+- **📁 Input files**: Saved in `./input/` folder - never deleted
+- **📊 Processed files**: Saved in `./output/` folder - yours forever  
+- **📋 Reports**: Saved in `./reports/` folder - review anytime
+- **🔄 Restart Safe**: Closing/restarting won't delete anything
+- **💾 Backup Ready**: Copy the entire tool folder to backup your work
+- **🚀 Portable**: Move to any computer and continue working
+
+**Even if you uninstall Docker, your files remain safely in these folders!**
+
 ## 📂 Finding Your Files
 
 After processing:
