@@ -43,12 +43,14 @@ This tool helps UNL faculty meet the new **ADA Title II requirements** by automa
 
 **macOS/Linux:**
 ```bash
-./start-accessibility-tool.sh
+./start-accessibility-tool.sh     # Start the tool
+./stop-accessibility-tool.sh      # Stop the tool
 ```
 
 **Windows:**
 ```cmd
-start-accessibility-tool.bat
+start-accessibility-tool.bat      # Start the tool
+stop-accessibility-tool.bat       # Stop the tool
 ```
 
 **That's it!** The script automatically:

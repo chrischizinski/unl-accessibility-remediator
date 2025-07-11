@@ -127,7 +127,8 @@ echo 3. Review the accessibility analysis and recommendations
 echo 4. Download the improved files and reports
 echo.
 echo ⚙️ To stop the services:
-echo    docker-compose down
+echo    🖱️ Easy way: Double-click 'stop-accessibility-tool.bat'
+echo    💻 Command line: docker-compose down
 echo.
 echo 📂 File locations:
 echo    • Input files: .\input\

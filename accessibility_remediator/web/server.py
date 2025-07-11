@@ -10,11 +10,13 @@ import os
 import tempfile
 import shutil
 import sys
+import subprocess
+import signal
 from pathlib import Path
 from typing import List, Optional
 
 from fastapi import FastAPI, UploadFile, File, Form, HTTPException
-from fastapi.responses import HTMLResponse, FileResponse
+from fastapi.responses import HTMLResponse, FileResponse, JSONResponse
 from fastapi.staticfiles import StaticFiles
 import uvicorn
 
@@ -653,6 +655,7 @@ async def upload_file(
                     <div style="margin-top: 2rem; text-align: center;">
                         <a href="/" class="btn-primary">← Upload Another File</a>
                         <a href="/health" class="btn-secondary" style="margin-left: 1rem;">Check System Status</a>
+                        <a href="/admin" class="btn-secondary" style="margin-left: 1rem;">⚙️ Admin Controls</a>
                     </div>
                 </div>
             </div>
@@ -991,12 +994,222 @@ async def health_check():
                 
                 <div style="text-align: center; margin-top: 2rem;">
                     <a href="/" class="btn-primary">← Back to Upload</a>
+                    <a href="/admin" class="btn-secondary" style="margin-left: 1rem;">⚙️ Admin Controls</a>
                 </div>
             </div>
         </div>
     </body>
     </html>
     """)
+
+
+@app.get("/admin")
+async def admin_panel():
+    """Admin control panel with shutdown/restart options."""
+    return HTMLResponse(f"""
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Admin Controls - UNL Accessibility Remediator</title>
+        {get_unl_styles()}
+        <script>
+            function confirmAction(action, message) {{
+                if (confirm(message)) {{
+                    return true;
+                }}
+                return false;
+            }}
+            
+            function shutdownServices() {{
+                if (confirmAction('shutdown', 'Are you sure you want to stop the accessibility tool?\\n\\nThis will close the web interface and stop all services.')) {{
+                    document.getElementById('shutdown-status').innerHTML = '<p style="color: var(--unl-orange);">🔄 Stopping services...</p>';
+                    fetch('/api/shutdown', {{ method: 'POST' }})
+                        .then(response => response.json())
+                        .then(data => {{
+                            document.getElementById('shutdown-status').innerHTML = '<p style="color: var(--unl-green);">✅ ' + data.message + '</p>';
+                            setTimeout(() => {{
+                                window.close();
+                            }}, 3000);
+                        }})
+                        .catch(error => {{
+                            document.getElementById('shutdown-status').innerHTML = '<p style="color: var(--unl-scarlet);">❌ Error: ' + error.message + '</p>';
+                        }});
+                }}
+            }}
+            
+            function restartServices() {{
+                if (confirmAction('restart', 'Are you sure you want to restart the accessibility tool?\\n\\nThis will temporarily stop all services and start them fresh.')) {{
+                    document.getElementById('restart-status').innerHTML = '<p style="color: var(--unl-orange);">🔄 Restarting services...</p>';
+                    fetch('/api/restart', {{ method: 'POST' }})
+                        .then(response => response.json())
+                        .then(data => {{
+                            document.getElementById('restart-status').innerHTML = '<p style="color: var(--unl-green);">✅ ' + data.message + '</p>';
+                            setTimeout(() => {{
+                                window.location.reload();
+                            }}, 5000);
+                        }})
+                        .catch(error => {{
+                            document.getElementById('restart-status').innerHTML = '<p style="color: var(--unl-scarlet);">❌ Error: ' + error.message + '</p>';
+                        }});
+                }}
+            }}
+        </script>
+    </head>
+    <body>
+        <div class="header">
+            <h1>⚙️ Admin Controls</h1>
+            <p>Manage the UNL Accessibility Remediator services</p>
+        </div>
+        
+        <div class="container">
+            <div class="card">
+                <h3 style="color: var(--unl-navy); margin-bottom: 1.5rem;">🛠️ Service Management</h3>
+                
+                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; margin-bottom: 2rem;">
+                    <div class="feature-item">
+                        <h4>🛑 Stop Services</h4>
+                        <p>Gracefully stop the accessibility tool and close the web interface. Use this when you're done analyzing documents.</p>
+                        <div id="shutdown-status" style="margin: 1rem 0;"></div>
+                        <button onclick="shutdownServices()" class="btn-secondary" style="background: var(--unl-scarlet);">
+                            🛑 Stop Tool
+                        </button>
+                    </div>
+                    
+                    <div class="feature-item">
+                        <h4>🔄 Restart Services</h4>
+                        <p>Restart all services fresh. Useful if you encounter any issues or want to clear the processing queue.</p>
+                        <div id="restart-status" style="margin: 1rem 0;"></div>
+                        <button onclick="restartServices()" class="btn-secondary" style="background: var(--unl-orange);">
+                            🔄 Restart Tool
+                        </button>
+                    </div>
+                </div>
+                
+                <div class="alert" style="background: var(--unl-cream); border: 1px solid var(--unl-gray);">
+                    <h4 style="color: var(--unl-navy); margin-bottom: 0.5rem;">💡 Quick Tips:</h4>
+                    <ul style="margin: 0; padding-left: 1.5rem;">
+                        <li><strong>Stop:</strong> Use when you're completely done with accessibility analysis</li>
+                        <li><strong>Restart:</strong> Use if the tool seems slow or unresponsive</li>
+                        <li><strong>Alternative:</strong> You can also use the start/stop scripts in the tool folder</li>
+                    </ul>
+                </div>
+                
+                <div style="text-align: center; margin-top: 2rem;">
+                    <a href="/" class="btn-primary">← Back to Upload</a>
+                    <a href="/health" class="btn-secondary" style="margin-left: 1rem;">Check Status</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <p>University of Nebraska–Lincoln | Digital Accessibility Compliance Tool</p>
+        </div>
+    </body>
+    </html>
+    """)
+
+
+@app.post("/api/shutdown")
+async def shutdown_services():
+    """API endpoint to shutdown services gracefully."""
+    try:
+        # Change to the project root directory
+        project_root = Path(__file__).parent.parent.parent
+        
+        # Try to stop docker services
+        result = subprocess.run(
+            ["docker", "compose", "down"],
+            cwd=project_root,
+            capture_output=True,
+            text=True,
+            timeout=30
+        )
+        
+        if result.returncode != 0:
+            # Try fallback command
+            result = subprocess.run(
+                ["docker-compose", "down"],
+                cwd=project_root,
+                capture_output=True,
+                text=True,
+                timeout=30
+            )
+        
+        # Schedule server shutdown after response
+        import asyncio
+        asyncio.create_task(delayed_shutdown())
+        
+        return JSONResponse({
+            "success": True,
+            "message": "Services stopped successfully. This window will close in 3 seconds."
+        })
+        
+    except subprocess.TimeoutExpired:
+        return JSONResponse({
+            "success": False,
+            "message": "Shutdown timed out. Services may still be running."
+        }, status_code=500)
+    except Exception as e:
+        return JSONResponse({
+            "success": False,
+            "message": f"Error stopping services: {str(e)}"
+        }, status_code=500)
+
+
+@app.post("/api/restart")
+async def restart_services():
+    """API endpoint to restart services."""
+    try:
+        # Change to the project root directory
+        project_root = Path(__file__).parent.parent.parent
+        
+        # Stop services first
+        subprocess.run(
+            ["docker", "compose", "down"],
+            cwd=project_root,
+            capture_output=True,
+            text=True,
+            timeout=30
+        )
+        
+        # Wait a moment
+        import time
+        time.sleep(2)
+        
+        # Start services again
+        result = subprocess.run(
+            ["docker", "compose", "up", "--build", "-d"],
+            cwd=project_root,
+            capture_output=True,
+            text=True,
+            timeout=60
+        )
+        
+        if result.returncode == 0:
+            return JSONResponse({
+                "success": True,
+                "message": "Services restarted successfully. Page will reload in 5 seconds."
+            })
+        else:
+            return JSONResponse({
+                "success": False,
+                "message": f"Restart failed: {result.stderr}"
+            }, status_code=500)
+            
+    except Exception as e:
+        return JSONResponse({
+            "success": False,
+            "message": f"Error restarting services: {str(e)}"
+        }, status_code=500)
+
+
+async def delayed_shutdown():
+    """Shutdown the server after a delay."""
+    import asyncio
+    await asyncio.sleep(3)
+    os.kill(os.getpid(), signal.SIGTERM)
 
 
 if __name__ == "__main__":

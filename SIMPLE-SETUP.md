@@ -23,15 +23,21 @@
 ### ⚡ One-Button Setup (Easiest)
 
 1. **Open** the folder where you extracted the tool
-2. **Double-click** on one of these files:
+2. **Double-click** on one of these files to START:
    - **Windows**: `start-accessibility-tool.bat`
    - **Mac/Linux**: `start-accessibility-tool.sh` *(If you see a security warning on Mac, see `MACOS-SECURITY.md`)*
-
-   **Note**: The script automatically finds its location, so you can run it from anywhere!
 
 3. **Wait** for the tool to start (may take 2-3 minutes first time)
 4. **Your browser opens automatically** to the tool interface
 5. **Start uploading files** for accessibility analysis!
+
+### 🛑 When You're Done
+
+**Double-click** on one of these files to STOP:
+- **Windows**: `stop-accessibility-tool.bat`
+- **Mac/Linux**: `stop-accessibility-tool.sh`
+
+**Note**: The scripts automatically find their location, so you can run them from anywhere!
 
 **The script automatically:**
 - ✅ Checks that Docker is running

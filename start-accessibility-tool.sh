@@ -9,6 +9,22 @@ set -e  # Exit on any error
 # Change to the directory where this script is located
 cd "$(dirname "$0")"
 
+# Graceful shutdown function
+cleanup() {
+    echo ""
+    echo -e "${YELLOW}🛑 Shutting down accessibility tool...${NC}"
+    if docker compose version >/dev/null 2>&1; then
+        docker compose down
+    else
+        docker-compose down
+    fi
+    echo -e "${GREEN}✅ Services stopped${NC}"
+    exit 0
+}
+
+# Trap Ctrl+C and call cleanup
+trap cleanup INT
+
 # Colors for output
 RED='\033[0;31m'
 GREEN='\033[0;32m'
@@ -94,6 +110,60 @@ if ! docker info >/dev/null 2>&1; then
 fi
 
 echo -e "${GREEN}✅ Docker is running${NC}"
+
+# Check if services are already running
+if docker ps --format "table {{.Names}}" | grep -q "accessibility-remediator"; then
+    echo -e "${YELLOW}⚠️  Accessibility tool services are already running!${NC}"
+    echo ""
+    echo "What would you like to do?"
+    echo "1) Open browser to existing instance"
+    echo "2) Restart services (stop and start fresh)"
+    echo "3) Stop services and exit"
+    echo "4) Exit (leave services running)"
+    echo ""
+    read -p "Choose an option (1-4): " choice
+    
+    case $choice in
+        1)
+            echo -e "${BLUE}🌐 Opening browser to existing instance...${NC}"
+            if command -v open >/dev/null 2>&1; then
+                open "http://localhost:8001"
+            elif command -v xdg-open >/dev/null 2>&1; then
+                xdg-open "http://localhost:8001"
+            else
+                echo "Please open: http://localhost:8001"
+            fi
+            exit 0
+            ;;
+        2)
+            echo -e "${YELLOW}🔄 Restarting services...${NC}"
+            if docker compose version >/dev/null 2>&1; then
+                docker compose down
+            else
+                docker-compose down
+            fi
+            echo -e "${GREEN}✅ Services stopped, starting fresh...${NC}"
+            ;;
+        3)
+            echo -e "${YELLOW}🛑 Stopping services...${NC}"
+            if docker compose version >/dev/null 2>&1; then
+                docker compose down
+            else
+                docker-compose down
+            fi
+            echo -e "${GREEN}✅ Services stopped${NC}"
+            exit 0
+            ;;
+        4)
+            echo -e "${GREEN}✅ Services remain running${NC}"
+            exit 0
+            ;;
+        *)
+            echo -e "${RED}❌ Invalid choice. Exiting.${NC}"
+            exit 1
+            ;;
+    esac
+fi
 
 # Find available ports
 echo -e "${YELLOW}🔍 Finding available ports...${NC}"
@@ -188,10 +258,12 @@ echo "3. Review the accessibility analysis and recommendations"
 echo "4. Download the improved files and reports"
 echo ""
 echo -e "${YELLOW}⚙️  To stop the services:${NC}"
+echo "   🖱️  Easy way: Double-click 'stop-accessibility-tool.sh'"
+echo "   💻 Command line:"
 if docker compose version >/dev/null 2>&1; then
-    echo "   docker compose down"
+    echo "      docker compose down"
 else
-    echo "   docker-compose down"
+    echo "      docker-compose down"
 fi
 echo ""
 echo -e "${YELLOW}📂 File locations:${NC}"
