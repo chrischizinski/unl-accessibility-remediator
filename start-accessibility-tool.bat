@@ -101,6 +101,19 @@ if %errorlevel% neq 0 (
 echo ⏳ Waiting for services to start...
 timeout /t 10 /nobreak >nul
 
+REM Wait for health check to pass
+echo ⏳ Checking if services are ready...
+:check_health
+curl -s http://localhost:%WEB_PORT%/health >nul 2>&1
+if %errorlevel% neq 0 (
+    echo ⏳ Services still starting up, please wait...
+    timeout /t 5 /nobreak >nul
+    goto check_health
+)
+
+echo ✅ Services are ready!
+echo 🌐 Opening web interface in your default browser...
+
 echo.
 echo 🎉 UNL Accessibility Remediator is running!
 echo ==============================================
@@ -108,8 +121,8 @@ echo 🌐 Web Interface: http://localhost:%WEB_PORT%
 echo 📋 Health Check: http://localhost:%WEB_PORT%/health
 echo.
 echo 📝 How to use:
-echo 1. Open http://localhost:%WEB_PORT% in your browser
-echo 2. Upload a PowerPoint (.pptx) or HTML slide deck
+echo 1. Your browser should now be open to the tool interface
+echo 2. Upload a PowerPoint (.pptx), PDF (.pdf), Word (.docx), or HTML file
 echo 3. Review the accessibility analysis and recommendations
 echo 4. Download the improved files and reports
 echo.

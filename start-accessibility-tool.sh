@@ -146,16 +146,44 @@ if ! curl -s http://localhost:$WEB_PORT/health >/dev/null 2>&1; then
     sleep 15
 fi
 
+# Wait a bit more and check again
+max_attempts=12
+attempt=0
+while [ $attempt -lt $max_attempts ]; do
+    if curl -s http://localhost:$WEB_PORT/health >/dev/null 2>&1; then
+        echo -e "${GREEN}✅ Services are ready!${NC}"
+        break
+    fi
+    echo -e "${YELLOW}⏳ Still waiting... (attempt $((attempt + 1))/$max_attempts)${NC}"
+    sleep 5
+    attempt=$((attempt + 1))
+done
+
+# Launch browser automatically
+echo -e "${BLUE}🌐 Opening web interface in your default browser...${NC}"
+if command -v open >/dev/null 2>&1; then
+    # macOS
+    open "http://localhost:$WEB_PORT"
+elif command -v xdg-open >/dev/null 2>&1; then
+    # Linux
+    xdg-open "http://localhost:$WEB_PORT"
+elif command -v start >/dev/null 2>&1; then
+    # Windows (if running under WSL or similar)
+    start "http://localhost:$WEB_PORT"
+else
+    echo -e "${YELLOW}⚠️  Could not auto-open browser. Please manually open: http://localhost:$WEB_PORT${NC}"
+fi
+
 # Print success message
 echo ""
 echo -e "${GREEN}🎉 UNL Accessibility Remediator is running!${NC}"
 echo "=============================================="
-echo -e "${BLUE}🌐 Web Interface:${NC} http://localhost:$WEB_PORT"
+echo -e "${BLUE}🌐 Web Interface:${NC} http://localhost:$WEB_PORT (opened in browser)"
 echo -e "${BLUE}📋 Health Check:${NC} http://localhost:$WEB_PORT/health"
 echo ""
 echo -e "${YELLOW}📝 How to use:${NC}"
-echo "1. Open http://localhost:$WEB_PORT in your browser"
-echo "2. Upload a PowerPoint (.pptx) or HTML slide deck"
+echo "1. Your browser should now be open to the tool interface"
+echo "2. Upload a PowerPoint (.pptx), PDF (.pdf), Word (.docx), or HTML file"
 echo "3. Review the accessibility analysis and recommendations"
 echo "4. Download the improved files and reports"
 echo ""
