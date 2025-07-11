@@ -12,10 +12,11 @@ import shutil
 import sys
 import subprocess
 import signal
+import html
 from pathlib import Path
 from typing import List, Optional
 
-from fastapi import FastAPI, UploadFile, File, Form, HTTPException
+from fastapi import FastAPI, UploadFile, File, Form, HTTPException, Request
 from fastapi.responses import HTMLResponse, FileResponse, JSONResponse
 from fastapi.staticfiles import StaticFiles
 import uvicorn
@@ -586,8 +587,11 @@ async def upload_file(
         )
     
     try:
-        # Save uploaded file
-        input_file = UPLOAD_DIR / file.filename
+        # Save uploaded file - sanitize filename to prevent path traversal
+        safe_filename = Path(file.filename).name
+        if not safe_filename or safe_filename.startswith('.'):
+            raise HTTPException(status_code=400, detail="Invalid filename provided")
+        input_file = UPLOAD_DIR / safe_filename
         with open(input_file, "wb") as buffer:
             shutil.copyfileobj(file.file, buffer)
         
@@ -606,10 +610,11 @@ async def upload_file(
                 # Process PowerPoint and HTML files with full accessibility analysis
                 import subprocess
                 try:
-                    # Execute accessibility analysis pipeline
-                    cmd = ["python", "main.py", str(input_file)]
+                    # Execute accessibility analysis pipeline - use -- to prevent argument injection
+                    cmd = ["python", "main.py"]
                     if apply_auto_fix:
                         cmd.append("--auto-fix")
+                    cmd.extend(["--", str(input_file)])
                     
                     # Execute processing in project directory
                     project_root = Path(__file__).parent.parent
@@ -688,7 +693,7 @@ async def upload_file(
                 <div class="card">
                     <div class="alert {'alert-success' if results and results.get('success') else 'alert-error'}">
                         <h3>{'✅ Analysis Complete!' if results and results.get('success') else '❌ Processing Error'}</h3>
-                        <p><strong>File:</strong> {file.filename}</p>
+                        <p><strong>File:</strong> {html.escape(file.filename)}</p>
                         <p><strong>Type:</strong> {file_suffix.upper()} document</p>
                         <p><strong>Auto-fix:</strong> {'Enabled' if auto_fix else 'Disabled'}</p>
                         {f'<p><strong>Accessibility Score:</strong> {results.get("accessibility_score", 0)}%</p>' if results and results.get('success') else ''}
@@ -732,7 +737,7 @@ async def upload_file(
                 <div class="card">
                     <div class="alert alert-error">
                         <h3>❌ Upload Failed</h3>
-                        <p><strong>Error:</strong> {str(e)}</p>
+                        <p><strong>Error:</strong> {html.escape(str(e))}</p>
                         <p>Please try again with a supported document type (.pptx, .pdf, .docx, or .html).</p>
                     </div>
                     
@@ -773,8 +778,17 @@ async def upload_multiple_files(
             continue
         
         try:
-            # Save uploaded file
-            input_file = UPLOAD_DIR / file.filename
+            # Save uploaded file - sanitize filename to prevent path traversal
+            safe_filename = Path(file.filename).name
+            if not safe_filename or safe_filename.startswith('.'):
+                results.append({
+                    "filename": file.filename,
+                    "success": False,
+                    "error": "Invalid filename provided"
+                })
+                error_count += 1
+                continue
+            input_file = UPLOAD_DIR / safe_filename
             with open(input_file, "wb") as buffer:
                 shutil.copyfileobj(file.file, buffer)
             
@@ -789,9 +803,11 @@ async def upload_multiple_files(
                 # Process PowerPoint and HTML files with accessibility analysis
                 import subprocess
                 try:
-                    cmd = ["python", "main.py", str(input_file)]
+                    # Use -- to prevent argument injection attacks
+                    cmd = ["python", "main.py"]
                     if apply_auto_fix:
                         cmd.append("--auto-fix")
+                    cmd.extend(["--", str(input_file)])
                     
                     project_root = Path(__file__).parent.parent
                     proc_result = subprocess.run(
@@ -964,8 +980,17 @@ async def upload_folder(
             file_suffix = Path(file.filename).suffix.lower()
             
             try:
-                # Save uploaded file
-                input_file = UPLOAD_DIR / file.filename
+                # Save uploaded file - sanitize filename to prevent path traversal
+                safe_filename = Path(file.filename).name
+                if not safe_filename or safe_filename.startswith('.'):
+                    results.append({
+                        "filename": file.filename,
+                        "success": False,
+                        "error": "Invalid filename provided"
+                    })
+                    error_count += 1
+                    continue
+                input_file = UPLOAD_DIR / safe_filename
                 with open(input_file, "wb") as buffer:
                     shutil.copyfileobj(file.file, buffer)
                 
@@ -998,7 +1023,7 @@ async def upload_folder(
                 results.append({
                     "filename": file.filename,
                     "success": False,
-                    "error": str(e)
+                    "error": "Unable to process file"
                 })
                 error_count += 1
     
@@ -1089,9 +1114,15 @@ async def health_check():
     """)
 
 
+def validate_local_access(request: Request):
+    """Validate that request comes from localhost for security."""
+    if request.client.host not in ("127.0.0.1", "localhost", "::1"):
+        raise HTTPException(status_code=403, detail="Access forbidden - admin functions only available from localhost")
+
 @app.get("/admin")
-async def admin_panel():
+async def admin_panel(request: Request):
     """Admin control panel with shutdown/restart options."""
+    validate_local_access(request)
     return HTMLResponse(f"""
     <!DOCTYPE html>
     <html lang="en">
@@ -1198,8 +1229,9 @@ async def admin_panel():
 
 
 @app.post("/api/shutdown")
-async def shutdown_services():
+async def shutdown_services(request: Request):
     """API endpoint to shutdown services gracefully."""
+    validate_local_access(request)
     try:
         # Change to the project root directory
         project_root = Path(__file__).parent.parent.parent
@@ -1240,13 +1272,14 @@ async def shutdown_services():
     except Exception as e:
         return JSONResponse({
             "success": False,
-            "message": f"Error stopping services: {str(e)}"
+            "message": "Error stopping services. Please check server logs."
         }, status_code=500)
 
 
 @app.post("/api/restart")
-async def restart_services():
+async def restart_services(request: Request):
     """API endpoint to restart services."""
+    validate_local_access(request)
     try:
         # Change to the project root directory
         project_root = Path(__file__).parent.parent.parent
@@ -1287,7 +1320,7 @@ async def restart_services():
     except Exception as e:
         return JSONResponse({
             "success": False,
-            "message": f"Error restarting services: {str(e)}"
+            "message": "Error restarting services. Please check server logs."
         }, status_code=500)
 
 
