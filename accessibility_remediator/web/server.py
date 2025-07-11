@@ -428,7 +428,7 @@ async def home():
                                 <label for="auto_fix_single">🔧 Apply automatic fixes when safe</label>
                             </div>
                             
-                            <button type="submit" class="btn-primary">🚀 Analyze Document</button>
+                            <button type="submit" class="btn-primary" onclick="showProcessing(this)">🚀 Analyze Document</button>
                         </form>
                     </div>
                     
@@ -603,15 +603,55 @@ async def upload_file(
                 processor = DocxAccessibilityProcessor()
                 results = processor.analyze_docx(str(input_file), apply_fixes=apply_auto_fix)
             elif file_suffix in {'.pptx', '.html', '.htm'}:
-                # For now, these still need the full CLI processing
-                # Will be integrated later when AI assistant is available
-                results = {
-                    "success": True,
-                    "file_type": file_suffix,
-                    "accessibility_score": 85,
-                    "total_issues": 3,
-                    "message": "PowerPoint and HTML processing requires CLI tool for full AI analysis"
-                }
+                # Process PowerPoint and HTML files using the main CLI tool
+                import subprocess
+                try:
+                    # Run the main processing script
+                    cmd = ["python", "main.py", str(input_file)]
+                    if apply_auto_fix:
+                        cmd.append("--auto-fix")
+                    
+                    # Run from the parent directory (where main.py is located)
+                    project_root = Path(__file__).parent.parent
+                    result = subprocess.run(
+                        cmd,
+                        cwd=project_root,
+                        capture_output=True,
+                        text=True,
+                        timeout=300  # 5 minute timeout
+                    )
+                    
+                    if result.returncode == 0:
+                        # Try to load the generated report
+                        report_file = REPORTS_DIR / f"{Path(file.filename).stem}_accessibility_report.json"
+                        if report_file.exists():
+                            with open(report_file, 'r') as f:
+                                results = json.load(f)
+                        else:
+                            results = {
+                                "success": True,
+                                "file_type": file_suffix,
+                                "message": "Processing completed successfully",
+                                "processed_via": "CLI integration"
+                            }
+                    else:
+                        results = {
+                            "success": False,
+                            "error": f"Processing failed: {result.stderr}",
+                            "file_type": file_suffix
+                        }
+                except subprocess.TimeoutExpired:
+                    results = {
+                        "success": False,
+                        "error": "Processing timed out (files too large or complex)",
+                        "file_type": file_suffix
+                    }
+                except Exception as e:
+                    results = {
+                        "success": False,
+                        "error": f"Processing error: {str(e)}",
+                        "file_type": file_suffix
+                    }
             
             # Save results to reports directory
             if results:
@@ -656,12 +696,7 @@ async def upload_file(
                     </div>
                     
                     <h3 style="color: var(--unl-navy); margin: 2rem 0 1rem 0;">📋 Next Steps:</h3>
-                    <ol style="padding-left: 1.5rem; line-height: 1.8;">
-                        <li>Your file has been saved to the processing queue</li>
-                        <li>Run the CLI tool to process: <code style="background: var(--unl-cream); padding: 0.25rem 0.5rem; border-radius: 4px;">python main.py input/{file.filename}</code></li>
-                        <li>Check the reports directory for detailed accessibility analysis</li>
-                        <li>Review recommendations and apply suggested improvements</li>
-                    </ol>
+                    {'<ol style="padding-left: 1.5rem; line-height: 1.8;"><li>Your file has been processed automatically</li><li>Check the detailed accessibility report below</li><li>Download improved files from the output folder if auto-fix was enabled</li><li>Review recommendations and apply any remaining improvements</li></ol>' if results and results.get('success') else '<ol style="padding-left: 1.5rem; line-height: 1.8;"><li>Processing encountered an error - see details above</li><li>Check that your file is a supported format (.pptx, .pdf, .docx, .html)</li><li>Try again with a different file or report the issue</li></ol>'}
                     
                     <div style="margin-top: 2rem; text-align: center;">
                         <a href="/" class="btn-primary">← Upload Another File</a>
